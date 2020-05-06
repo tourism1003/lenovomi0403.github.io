@@ -6,6 +6,10 @@ var nav_Btn = [
     {
         url:'https://issuu.com/lenovomi0403/docs/graphic_design_learning_process',
         name:'Graphic Design'
+    },
+    {
+        url:'https://lenovomi0403.github.io/Learning%20process/Resume/',
+        name:'Resume with Semantic UI'
     }
 ]
 
