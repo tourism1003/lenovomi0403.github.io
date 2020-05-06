@@ -88,7 +88,7 @@ var Progressbar = [
     {   
         color:'red',
         number:'20',
-        project:'photoshop'
+        project:'Photoshop'
     },
     {   
         color:'blue',
@@ -117,7 +117,7 @@ var Progressbar = [
     }
 ]
 
-var progressbar = document.querySelector('.progressbar')
+var progressbar = document.querySelector('#progressbar')
 
 for (let index = 0; index < Progressbar.length; index++) {
     const element_progressbar = Progressbar[index];
@@ -342,3 +342,4 @@ for (let index = 0; index < Icon.length; index++) {
 //     <a href="${element_copyright.url}" target="_blank">${element_copyright.name}</a>
 //     `
 // }
+  
