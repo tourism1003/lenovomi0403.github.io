@@ -125,7 +125,7 @@ for (let index = 0; index < Progressbar.length; index++) {
     progressbar.innerHTML +=`
     <article>
         <div class="col mb-4">
-            <div class="card">
+            <div class="card py-1">
                 <div class="card-body">
                     <div class="progress">
                         <div class="progress-bar ${element_progressbar.color} progress-bar-striped progress-bar-animated"
@@ -172,9 +172,9 @@ for (let index = 0; index < Education.length; index++) {
 
     education.innerHTML += `
     <article>
-        <div class="card mb-3">
+        <div class="card my-3 py-1">
             <div class="row no-gutters">
-                <div class="col-4 d-flex">
+                <div class="col-4 col-md-12 col-lg-4 d-flex align-self-center" style="height:100px">
                     <img class="card-img-top mx-auto align-self-center m-3"
                         src="${element_education.img}" alt="${element_education.alt}"
                         style="${element_education.size}"
