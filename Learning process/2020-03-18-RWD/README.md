@@ -2,7 +2,7 @@
 
 ### 將 01-img 資料夾中的 [ RWD任務 ] 規定的4個版面切出來
 
-![image](https://github.com/lenovomi0403/lenovomi0403.github.io/blob/master/%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B/2020-03-18-RWD/01-img/01-%E7%AC%AC%E4%B8%80%E9%9A%8E%E6%AE%B5%E4%BB%BB%E5%8B%99-%E4%BB%BB%E5%8B%99%E6%9D%BF.jpg)
+![image](https://lenovomi0403.github.io/Learning%20process/2020-03-18-RWD/01-img/01-%E7%AC%AC%E4%B8%80%E9%9A%8E%E6%AE%B5%E4%BB%BB%E5%8B%99-%E4%BB%BB%E5%8B%99%E6%9D%BF.jpg)
 
 ## 任務：
 
