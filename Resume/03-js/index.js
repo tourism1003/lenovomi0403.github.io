@@ -194,66 +194,93 @@ for (let index = 0; index < Education.length; index++) {
     `
 }
 
-// ↓ innennerHTML with jQuery about work-experience
-var Work = [
-    {
+// ↓ innennerHTML with jQuery about experience
+var Experience = [
+    {   
+        url:'https://its.taiwanjobs.gov.tw/Course/Detail?ID=141583',
+        img: './01-img/01-img/05_its-taiwanjobs.png',
+        alt:'05_its-taiwanjobs.png',
+        size: "height:80px;width: 295px;",
+        img_title:'台灣就業通 職前訓練網.png',
+        title: '<mark style="padding:10px 20px 10px 0;">跨平台網站製作-介面規劃與RWD前端程式開發班</mark>&nbsp;<small>學員</small>',
+        company: "台灣就業通 職前訓練",
+        during: 'Feb 2020 ~ May 2020',
+        projects:'<div class="pb-2">Graphic Design<br>a. Adobe Photoshop<br>b. Adobe Illustrator</div><div class="pb-2">Front-end web development<br>a. HTML<br>b. CSS<br>c. JavaScript / jQuery</div>Git版本控制。<br>Bootstrap框架網站開發。<br>UX/User Experience用戶體驗流程與設計。',
+        content: '/ 今年年初的時候利用了非自願離職的身份報名了勞動部開辦的<br>[&ensp;跨平台網站製作&nbsp;-&nbsp;介面規劃與RWD前端程式開發&ensp;]&ensp;職前訓練課程，並且有甄試錄取通過。<br>開啟了朝著前端工程師方向發展之路。<br>目前已領到結訓證書，並且在結訓之前完成至少三個前端個人作品。<br>未來將會持續學習專業技能。/',
+        name:'台灣就業通 職前訓練網',
+    },
+    {   
+        url:'http://www.sunrise-tech.com.tw/',
         img: './01-img/01-img/03_WorkExperience-01_昇展.png',
         alt:'03_WorkExperience-01_昇展.png',
         size: "height:80px;width: 295px;",
         img_title:'昇展.png',
-        title: '倉管人員',
+        title: '<mark style="padding:10px 20px 10px 0;">倉管人員</mark>',
         company: "昇展科技股份有限公司",
         during: 'May 2019 ～ Sep 2019',
         projects: '倉儲作業、物料控管。<br>進貨清點、出貨備料。<br>盤點任務、主管交辦事項。',
-        content: '/ 在上一份兼職的 IKEA逢甲百元商店的檔期結束之後，<br>獲得了機會進入運動器材產業相關公司擔任廠務部的倉管人員。<br>有別以往拿著報表上下架商品，在這裡更需要學習決策物料的擺放、<br>品質以及出入倉的時間安排。<br>所幸在資深同仁的指導下，透過ERP的標準流程進行出入庫管理，<br>以利後續備料、品檢及發料的流程能更迅速並降低錯誤率。 /'
+        content: '/ 在上一份兼職的 IKEA逢甲百元商店的檔期結束之後，<br>獲得了機會進入運動器材產業相關公司擔任廠務部的倉管人員。<br>有別以往拿著報表上下架商品，在這裡更需要學習決策物料的擺放、<br>品質以及出入倉的時間安排。<br>所幸在資深同仁的指導下，透過ERP的標準流程進行出入庫管理，<br>以利後續備料、品檢及發料的流程能更迅速並降低錯誤率。 /',
+        name:'',
     },
-    {
+    {   
+        url:'https://www.mterrace.com.tw/',
         img: './01-img/01-img/03_WorkExperience-02_mterrace.png',
         alt:'03_WorkExperience-02_mterrace.png',
         size: 'height:80px;width: 295px;',
         img_title:'mterrace.png',
-        title: '業務助理',
+        title: '<mark style="padding:10px 20px 10px 0;">業務助理</mark>',
         company: '泰睿思股份有限公司',
         during: 'May 2018 ~ Nov 2018',
         projects: '負責專案事件的統籌、分配、追蹤，並與客戶溝通協調。<br>辦理核銷事宜。<br>協助處理庶務性行政工作(如：事務機器叫修維護、文具用品採買)。<br>收發公文並處理會籤文件。<br>負責零用金管理。<br>負責一般文書資料處理及歸檔工作。<br>支援其他部門業務(如：採購、業務、人事)。<br>協助專案文件撰寫。<br>協助使用手冊、操作手冊、單元測試報告等系統開發文件撰寫。<br>軟體系統客戶使用意見管理及回覆。<br>主管交辦事項。',
-        content: '/ 去年五月份的時候，進入新創資訊公司擔任業務助理兼行政的職務，<br>在這期間瞭解到每一件專案系統在發包與接案時所需要的流程及內容，<br>以及如何完整瞭解客戶的需求並規劃設計原型圖與工程師討論才能完成這件專案。<br>也會透過 Trello 專案管理工具，以及 Microsoft Teams 團隊溝通協作工具，<br>來運用在工作的事務上。同時在公司內也包括協助申請政府補助計畫、<br>稅務申報、人事薪資處理等工作。 /'
+        content: '/ 去年五月份的時候，進入新創資訊公司擔任業務助理兼行政的職務，<br>在這期間瞭解到每一件專案系統在發包與接案時所需要的流程及內容，<br>以及如何完整瞭解客戶的需求並規劃設計原型圖與工程師討論才能完成這件專案。<br>也會透過 Trello 專案管理工具，以及 Microsoft Teams 團隊溝通協作工具，<br>來運用在工作的事務上。同時在公司內也包括協助申請政府補助計畫、<br>稅務申報、人事薪資處理等工作。 /',
+        name:'',
     },
-    {
+    {   
+        url:'https://www.storyhotel.com.tw/',
         img: './01-img/01-img/03_WorkExperience-03_storyhotel.png',
         alt:'03_WorkExperience-03_storyhotel.png',
         size: 'height:80px;width: 80px;',
         img_title:'storyhotel.png',
-        title: '飯店工作人員',
+        title: '<mark style="padding:10px 20px 10px 0;">飯店工作人員</mark>',
         company: '時光對白旅棧有限公司',
         during: 'Jan 2016 ~ Apr 2018',
         projects: '處理房間安排事宜，如：訂房、排房、進房、退房等。<br>處理帳務，如：收款、核帳、查帳等。<br>負責轉接電話並且為客人留言。<br>提供當地旅遊諮詢，並協助安排旅行計畫、交通工具租用、接送等事宜。<br>接待客人，並提供相關服務（如：行李運送、車輛引導）。<br>負責客房內清潔整理，以及各樓層公共區域之清潔維護。<br>負責顧客資料之輸入與維護。',
-        content: '/ 大學畢業後，來到台中觀光夜市之一的逢甲旅館擔任櫃檯的職務。<br>除了櫃檯的職務之外，因過去所學的相關經驗，同時在內勤部門支援房務。<br>不論是站在第一線與客人的迎賓接待、諮詢亦或者後台的房務清潔維護部分均具備實務經驗。 /'
+        content: '/ 大學畢業後，來到台中觀光夜市之一的逢甲旅館擔任櫃檯的職務。<br>除了櫃檯的職務之外，因過去所學的相關經驗，同時在內勤部門支援房務。<br>不論是站在第一線與客人的迎賓接待、諮詢亦或者後台的房務清潔維護部分均具備實務經驗。 /',
+        name:'',
     }
 
 ]
 
-var work = document.querySelector('.work-experience')
+var experience = document.querySelector('.experience')
 
-for (let index = 0; index < Work.length; index++) {
-    const element_work = Work[index];
+for (let index = 0; index < Experience.length; index++) {
+    const element_experience = Experience[index];
 
-    work.innerHTML += `
+    experience.innerHTML += `
     <article>
         <div class="card mb-4">
             <div class="row no-gutters">
                 <div class="col-12 col-lg-4 d-flex">
-                    <img class="card-img-top mx-auto align-self-center m-3"
-                        src="${element_work.img}" alt="${element_work.alt}"
-                        style="${element_work.size}"
-                        title="${element_work.img_title}">
+                    <a href="${element_experience.url}" target="_blank" class="d-flex mx-auto" rel="stylesheet">
+                        <img class="card-img-top align-self-center m-3"
+                            src="${element_experience.img}" alt="${element_experience.alt}"
+                            style="${element_experience.size}"
+                            title="${element_experience.img_title}"><div id="name" style="display:none">${element_experience.name}</div>
+                    </a>
                 </div>
                 <div class="col-12 col-lg-8">
-                    <div class="card-body" style="padding-bottom: unset;">
-                        <h5 class="font-weight-bold">${element_work.title}</h5>
-                        <p>${element_work.company}</p>
-                        <p>${element_work.during}</p>
-                        <p>${element_work.projects}</p>
-                        <p>${element_work.content}</p>
+                    <div class="card-body">
+                        <h5 class="font-weight-bold">${element_experience.title}</h5>
+                        <div class="pt-2">
+                            ${element_experience.company}<br>
+                            <small>${element_experience.during}</small><br>
+                        </div>
+                        <div class="pt-3">
+                            ${element_experience.projects}
+                        </div>
+                        <div class="pt-3">
+                            ${element_experience.content}
+                        </div>
                     </div>
                 </div>
             </div>
