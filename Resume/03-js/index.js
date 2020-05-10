@@ -19,7 +19,7 @@ for (let index = 0; index < nav_Btn.length; index++) {
     const element_navbtn = nav_Btn[index];
     
     nav_BTN.innerHTML +=`
-    <a type="button" href="${element_navbtn.url}" target="_blank" title="可以 ctrl 按著再點超連結" class="btn indigo darken-2 px-2" style="color: white">${element_navbtn.name}</a>
+    <a type="button" href="${element_navbtn.url}" target="_blank" title="可以 ctrl 按著再點超連結" class="btn hvr-reveal indigo darken-2 px-2" style="color: white">${element_navbtn.name}</a>
     `
 }
 
@@ -52,7 +52,7 @@ for (let index = 0; index < Menu_1.length; index++) {
     const element_Menu_1 = Menu_1[index];
     
     menu_1.innerHTML +=`
-    <a type="button" href="${element_Menu_1.url}" target="_blank" title="可以 ctrl 按著再點超連結" style="color: black">${element_Menu_1.name}</a>
+    <a type="button" href="${element_Menu_1.url}" target="_blank" title="可以 ctrl 按著再點超連結" style="color: black" class="hvr-reveal indigo lighten-3">${element_Menu_1.name}</a>
     `
 }
 
@@ -77,7 +77,7 @@ for (let index = 0; index < Menu_2.length; index++) {
     const element_Menu_2 = Menu_2[index];
     
     menu_2.innerHTML +=`
-    <a type="button" href="${element_Menu_2.url}" target="_blank" title="可以 ctrl 按著再點超連結" style="color: black">${element_Menu_2.name}</a>
+    <a type="button" href="${element_Menu_2.url}" target="_blank" title="可以 ctrl 按著再點超連結" style="color: black" class="hvr-reveal indigo lighten-3">${element_Menu_2.name}</a>
     `
 }
 
@@ -126,12 +126,12 @@ for (let index = 0; index < Progressbar.length; index++) {
             <div class="card py-1">
                 <div class="card-body">
                     <div class="progress">
-                        <div class="progress-bar ${element_progressbar.color} progress-bar-striped progress-bar-animated"
+                        <div class="progress-bar ${element_progressbar.color} progress-bar-striped progress-bar-animated  animate__animated animate__rubberBand animate__infinite animate__slow"
                             role="progressbar" style="width: ${element_progressbar.number}%;background-color: ${element_progressbar.color};" aria-valuenow="${element_progressbar.number}" aria-valuemin="0"
                             aria-valuemax="100">${element_progressbar.number}%
                         </div>
                     </div>
-                    <h6><div class="label text-center mt-3"><mark style="padding:0 10px;">${element_progressbar.project}</mark></div></h6>
+                    <h6><div class="label text-center mt-3" data-scroll><mark style="padding:0 10px;">${element_progressbar.project}</mark></div></h6>
                 </div>
             </div>
         </div>
@@ -179,7 +179,7 @@ for (let index = 0; index < Education.length; index++) {
                         title="${element_education.title}">
                 </div>
                 <div class="col-8">
-                    <div class="card-body" style="padding-bottom: unset;">
+                    <div class="card-body" style="padding-bottom: unset;"  data-scroll>
                         <h5 class="h5-responsive font-weight-bold"><mark style="padding:0 10px 0 0;">${element_education.department}</mark></h5>
                         <p>${element_education.name}</p>
                         <p><small>${element_education.degree}</small></p>
@@ -268,7 +268,7 @@ for (let index = 0; index < Experience.length; index++) {
                     </a>
                 </div>
                 <div class="col-12 col-lg-8">
-                    <div class="card-body">
+                    <div class="card-body" data-scroll>
                         <h5 class="h5-responsive font-weight-bold">${element_experience.title}</h5>
                         <div class="pt-2">
                             ${element_experience.company}<br>

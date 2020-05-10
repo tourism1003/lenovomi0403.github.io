@@ -2,6 +2,19 @@ body {
   background-color: #E9EBEE;
 }
 
+[data-scroll] {
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+[data-scroll="in"] {
+  opacity: 1;
+}
+
+[data-scroll="out"] {
+  opacity: 0.2;
+}
+
 @-webkit-keyframes donut-chart-fill {
   to {
     stroke-dasharray: 0 100;

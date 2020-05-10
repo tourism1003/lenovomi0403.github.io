@@ -2,6 +2,18 @@ body{
     background-color: #E9EBEE;
 }
 
+// scroll-out
+[data-scroll] {
+    transition: opacity 1s;
+  }
+  [data-scroll="in"] {
+    opacity: 1;
+  }
+  [data-scroll="out"] {
+    opacity: 0.2;
+}
+
+// SVG Percentage doughnut
 @keyframes donut-chart-fill {
     to {
         stroke-dasharray: 0 100;
