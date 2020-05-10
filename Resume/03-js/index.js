@@ -19,8 +19,7 @@ for (let index = 0; index < nav_Btn.length; index++) {
     const element_navbtn = nav_Btn[index];
     
     nav_BTN.innerHTML +=`
-    <a type="button" href="${element_navbtn.url}" target="_blank" title="可以 ctrl 按著再點超連結"
-    class="btn indigo darken-2 px-2" style="color: white">${element_navbtn.name}</a>
+    <a type="button" href="${element_navbtn.url}" target="_blank" title="可以 ctrl 按著再點超連結" class="btn indigo darken-2 px-2" style="color: white">${element_navbtn.name}</a>
     `
 }
 
@@ -78,8 +77,7 @@ for (let index = 0; index < Menu_2.length; index++) {
     const element_Menu_2 = Menu_2[index];
     
     menu_2.innerHTML +=`
-    <a type="button" href="${element_Menu_2.url}" target="_blank" title="可以 ctrl 按著再點超連結"
-    style="color: black">${element_Menu_2.name}</a>
+    <a type="button" href="${element_Menu_2.url}" target="_blank" title="可以 ctrl 按著再點超連結" style="color: black">${element_Menu_2.name}</a>
     `
 }
 
@@ -133,7 +131,7 @@ for (let index = 0; index < Progressbar.length; index++) {
                             aria-valuemax="100">${element_progressbar.number}%
                         </div>
                     </div>
-                    <h6><div class="label text-center mt-3">${element_progressbar.project}</div></h6>
+                    <h6><div class="label text-center mt-3"><mark style="padding:0 10px;">${element_progressbar.project}</mark></div></h6>
                 </div>
             </div>
         </div>
@@ -182,7 +180,7 @@ for (let index = 0; index < Education.length; index++) {
                 </div>
                 <div class="col-8">
                     <div class="card-body" style="padding-bottom: unset;">
-                        <h5 class="font-weight-bold">${element_education.department}</h5>
+                        <h5 class="h5-responsive font-weight-bold"><mark style="padding:0 10px 0 0;">${element_education.department}</mark></h5>
                         <p>${element_education.name}</p>
                         <p><small>${element_education.degree}</small></p>
                         <p><small>${element_education.during}</small></p>
@@ -200,9 +198,9 @@ var Experience = [
         url:'https://its.taiwanjobs.gov.tw/Course/Detail?ID=141583',
         img: './01-img/01-img/05_its-taiwanjobs.png',
         alt:'05_its-taiwanjobs.png',
-        size: "height:80px;width: 295px;",
-        img_title:'台灣就業通 職前訓練網.png',
-        title: '<mark style="padding:10px 20px 10px 0;">跨平台網站製作-介面規劃與RWD前端程式開發班</mark>&nbsp;<small>學員</small>',
+        size: "height:80px;width: 200px;",
+        img_title:'台灣就業通 職前訓練網',
+        title: '<mark style="padding:0 10px 0 0;">跨平台網站製作 - 介面規劃與RWD前端程式開發班</mark>&nbsp;<small>學員</small>',
         company: "台灣就業通 職前訓練",
         during: 'Feb 2020 ~ May 2020',
         projects:'<div class="pb-2">Graphic Design<br>a. Adobe Photoshop<br>b. Adobe Illustrator</div><div class="pb-2">Front-end web development<br>a. HTML<br>b. CSS<br>c. JavaScript / jQuery</div>Git版本控制。<br>Bootstrap框架網站開發。<br>UX/User Experience用戶體驗流程與設計。',
@@ -213,40 +211,40 @@ var Experience = [
         url:'http://www.sunrise-tech.com.tw/',
         img: './01-img/01-img/03_WorkExperience-01_昇展.png',
         alt:'03_WorkExperience-01_昇展.png',
-        size: "height:80px;width: 295px;",
-        img_title:'昇展.png',
-        title: '<mark style="padding:10px 20px 10px 0;">倉管人員</mark>',
+        size: "height:80px;width: 200px;",
+        img_title:'昇展科技股份有限公司',
+        title: '<mark style="padding:0 10px 0 0;">倉管人員</mark>',
         company: "昇展科技股份有限公司",
         during: 'May 2019 ～ Sep 2019',
         projects: '倉儲作業、物料控管。<br>進貨清點、出貨備料。<br>盤點任務、主管交辦事項。',
         content: '/ 在上一份兼職的 IKEA逢甲百元商店的檔期結束之後，<br>獲得了機會進入運動器材產業相關公司擔任廠務部的倉管人員。<br>有別以往拿著報表上下架商品，在這裡更需要學習決策物料的擺放、<br>品質以及出入倉的時間安排。<br>所幸在資深同仁的指導下，透過ERP的標準流程進行出入庫管理，<br>以利後續備料、品檢及發料的流程能更迅速並降低錯誤率。 /',
-        name:'',
+        name:'昇展科技股份有限公司',
     },
     {   
         url:'https://www.mterrace.com.tw/',
         img: './01-img/01-img/03_WorkExperience-02_mterrace.png',
         alt:'03_WorkExperience-02_mterrace.png',
-        size: 'height:80px;width: 295px;',
-        img_title:'mterrace.png',
-        title: '<mark style="padding:10px 20px 10px 0;">業務助理</mark>',
+        size: 'height:80px;width: 200px;',
+        img_title:'泰睿思股份有限公司',
+        title: '<mark style="padding:0 10px 0 0;">業務助理</mark>',
         company: '泰睿思股份有限公司',
         during: 'May 2018 ~ Nov 2018',
         projects: '負責專案事件的統籌、分配、追蹤，並與客戶溝通協調。<br>辦理核銷事宜。<br>協助處理庶務性行政工作(如：事務機器叫修維護、文具用品採買)。<br>收發公文並處理會籤文件。<br>負責零用金管理。<br>負責一般文書資料處理及歸檔工作。<br>支援其他部門業務(如：採購、業務、人事)。<br>協助專案文件撰寫。<br>協助使用手冊、操作手冊、單元測試報告等系統開發文件撰寫。<br>軟體系統客戶使用意見管理及回覆。<br>主管交辦事項。',
         content: '/ 去年五月份的時候，進入新創資訊公司擔任業務助理兼行政的職務，<br>在這期間瞭解到每一件專案系統在發包與接案時所需要的流程及內容，<br>以及如何完整瞭解客戶的需求並規劃設計原型圖與工程師討論才能完成這件專案。<br>也會透過 Trello 專案管理工具，以及 Microsoft Teams 團隊溝通協作工具，<br>來運用在工作的事務上。同時在公司內也包括協助申請政府補助計畫、<br>稅務申報、人事薪資處理等工作。 /',
-        name:'',
+        name:'泰睿思股份有限公司',
     },
     {   
         url:'https://www.storyhotel.com.tw/',
         img: './01-img/01-img/03_WorkExperience-03_storyhotel.png',
         alt:'03_WorkExperience-03_storyhotel.png',
         size: 'height:80px;width: 80px;',
-        img_title:'storyhotel.png',
-        title: '<mark style="padding:10px 20px 10px 0;">飯店工作人員</mark>',
+        img_title:'時光對白旅棧有限公司',
+        title: '<mark style="padding:0 10px 0 0;">飯店工作人員</mark>',
         company: '時光對白旅棧有限公司',
         during: 'Jan 2016 ~ Apr 2018',
         projects: '處理房間安排事宜，如：訂房、排房、進房、退房等。<br>處理帳務，如：收款、核帳、查帳等。<br>負責轉接電話並且為客人留言。<br>提供當地旅遊諮詢，並協助安排旅行計畫、交通工具租用、接送等事宜。<br>接待客人，並提供相關服務（如：行李運送、車輛引導）。<br>負責客房內清潔整理，以及各樓層公共區域之清潔維護。<br>負責顧客資料之輸入與維護。',
         content: '/ 大學畢業後，來到台中觀光夜市之一的逢甲旅館擔任櫃檯的職務。<br>除了櫃檯的職務之外，因過去所學的相關經驗，同時在內勤部門支援房務。<br>不論是站在第一線與客人的迎賓接待、諮詢亦或者後台的房務清潔維護部分均具備實務經驗。 /',
-        name:'',
+        name:'時光對白旅棧有限公司',
     }
 
 ]
@@ -261,16 +259,17 @@ for (let index = 0; index < Experience.length; index++) {
         <div class="card mb-4">
             <div class="row no-gutters">
                 <div class="col-12 col-lg-4 d-flex">
-                    <a href="${element_experience.url}" target="_blank" class="d-flex mx-auto" rel="stylesheet">
+                    <a href="${element_experience.url}" target="_blank" class="d-flex mx-auto">
                         <img class="card-img-top align-self-center m-3"
                             src="${element_experience.img}" alt="${element_experience.alt}"
                             style="${element_experience.size}"
-                            title="${element_experience.img_title}"><div id="name" style="display:none">${element_experience.name}</div>
+                            title="${element_experience.img_title}">
+                            <div style="display:none">${element_experience.name}</div>
                     </a>
                 </div>
                 <div class="col-12 col-lg-8">
                     <div class="card-body">
-                        <h5 class="font-weight-bold">${element_experience.title}</h5>
+                        <h5 class="h5-responsive font-weight-bold">${element_experience.title}</h5>
                         <div class="pt-2">
                             ${element_experience.company}<br>
                             <small>${element_experience.during}</small><br>
@@ -294,42 +293,50 @@ var Icon = [
     {
         url:'https://www.cakeresume.com/lenovomi0403',
         icon:'./01-img/01-img/02_cakeresume.png',
-        alt:'02_cakeresume.png'
+        alt:'04-02_cakeresume.png',
+        name:'cakeresume',
     },
     {
         url:'mailto:lenovomi0403@gmail.com',
         icon:'https://img.icons8.com/color/48/000000/send-mass-email.png',
-        alt:'04-02_send-mass-email.png'
+        alt:'04-02_send-mass-email.png',
+        name:'email',
     },
     {
         url:'https://www.facebook.com/lenovomi0403',
         icon:'https://img.icons8.com/color/48/000000/facebook.png',
-        alt:'04-03_facebook.png'
+        alt:'04-03_facebook.png',
+        name:'facebook',
     },
     {
         url:'https://github.com/lenovomi0403/lenovomi0403.github.io',
         icon:'https://img.icons8.com/color/48/000000/github.png',
-        alt:'04-04_github.png'
+        alt:'04-04_github.png',
+        name:'github',
     },
     {
         url:'https://www.instagram.com/lenovomi0403/',
         icon:'https://img.icons8.com/color/48/000000/instagram-new.png',
-        alt:'04-05_instagram-new.png'
+        alt:'04-05_instagram-new.png',
+        name:'instagram',
     },
     {
         url:'https://issuu.com/lenovomi0403',
         icon:'https://img.icons8.com/color/48/000000/issuu.png',
-        alt:'04-06_issuu.png'
+        alt:'04-06_issuu.png',
+        name:'issuu'
     },
     {
         url:'https://www.linkedin.com/in/lenovomi0403/',
         icon:'https://img.icons8.com/color/48/000000/linkedin.png',
-        alt:'04-07_linkedin.png'
+        alt:'04-07_linkedin.png',
+        name:'linkedin',
     },
     {
         url:'https://linktr.ee/lenovomi0403',
         icon:'./01-img/01-img/02_linktr.ee icon.png',
-        alt:'04-08_linktr.ee icon.png'
+        alt:'04-08_linktr.ee icon.png',
+        name:'linktr.ee',
     }
 ]
 
@@ -341,6 +348,7 @@ for (let index = 0; index < Icon.length; index++) {
     icon.innerHTML +=`
     <a href="${element_icon.url}" target="_blank">
         <img src="${element_icon.icon}" alt="${element_icon.alt}" class="fa-lg white-text mr-lg-5 mr-md-2 fa-2x" title="可以 ctrl 按著再點超連結">
+        <div style="display:none">${element_icon.name}</div>
     </a>
     `
 }
