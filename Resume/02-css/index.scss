@@ -2,6 +2,10 @@ body{
     background-color: #E9EBEE;
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+
 // scroll-out
 [data-scroll] {
     transition: opacity 1s;
@@ -151,6 +155,47 @@ body{
             fill: #4caf50;
             line-height: 1;
             transform: translateY(0.5em);
+        }
+    }
+}
+
+// swiper.js with RWD Effect
+.swiper-container {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    .swiper-slide {
+        width: auto !important;
+
+        .card {
+            border-radius: 50px;
+            background: white;
+            overflow: hidden;
+
+            .card__img {
+                display: block;
+                width: 100%;
+                -o-object-fit: cover;
+                   object-fit: cover;
+            }
+              
+              .card__body {
+                padding: 15px 20px;
+                font-weight: 600;
+                text-align: center;
+
+                h3 {
+                    font-size: 1.25rem;
+                    line-height: 1.5;
+                }
+
+                span {
+                    display: block;
+                    font-size: 1rem;
+                    color: #f44336;
+                }
+            }
         }
     }
 }
