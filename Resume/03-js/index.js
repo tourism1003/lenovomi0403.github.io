@@ -499,68 +499,50 @@ var Icon = [
     {
         url:'https://www.cakeresume.com/lenovomi0403',
         icon:'./01-img/01-img/02_cakeresume.png',
-        alt:'cakeresume.png',
+        alt:'04-02_cakeresume.png',
         name:'cakeresume',
-    },
-    {
-        url:'https://codepen.io/lenovomi0403/pens/',
-        icon:'https://img.icons8.com/ios-filled/48/000000/codepen.png',
-        alt:'codepen.png',
-        name:'codepen',
     },
     {
         url:'mailto:lenovomi0403@gmail.com',
         icon:'https://img.icons8.com/color/48/000000/send-mass-email.png',
-        alt:'send-mass-email.png',
+        alt:'04-02_send-mass-email.png',
         name:'email',
     },
     {
         url:'https://www.facebook.com/lenovomi0403',
         icon:'https://img.icons8.com/color/48/000000/facebook.png',
-        alt:'facebook.png',
+        alt:'04-03_facebook.png',
         name:'facebook',
-    },
-    {
-        url:'https://www.flickr.com/photos/lenovomi0403/albums',
-        icon:'https://img.icons8.com/color/48/000000/flickr.png',
-        alt:'flickr.png',
-        name:'flickr',
     },
     {
         url:'https://github.com/lenovomi0403/lenovomi0403.github.io',
         icon:'https://img.icons8.com/color/48/000000/github.png',
-        alt:'github.png',
+        alt:'04-04_github.png',
         name:'github',
     },
     {
         url:'https://www.instagram.com/lenovomi0403/',
         icon:'https://img.icons8.com/color/48/000000/instagram-new.png',
-        alt:'instagram-new.png',
+        alt:'04-05_instagram-new.png',
         name:'instagram',
     },
     {
         url:'https://issuu.com/lenovomi0403',
         icon:'https://img.icons8.com/color/48/000000/issuu.png',
-        alt:'issuu.png',
+        alt:'04-06_issuu.png',
         name:'issuu'
     },
     {
         url:'https://www.linkedin.com/in/lenovomi0403/',
         icon:'https://img.icons8.com/color/48/000000/linkedin.png',
-        alt:'linkedin.png',
+        alt:'04-07_linkedin.png',
         name:'linkedin',
     },
     {
         url:'https://linktr.ee/lenovomi0403',
         icon:'./01-img/01-img/02_linktr.ee icon.png',
-        alt:'linktr.ee icon.png',
+        alt:'04-08_linktr.ee icon.png',
         name:'linktr.ee',
-    },
-    {
-        url:'https://www.pinterest.com/lenovomi0403/',
-        icon:'https://img.icons8.com/color/48/000000/pinterest.png',
-        alt:'pinterest.png',
-        name:'pinterest',
     }
 ]
 
