@@ -289,10 +289,11 @@ for (let index = 0; index < Experience.length; index++) {
 }
 
 // ↓ innennerHTML with jQuery about RWD Effect
-var swiper_slide = [
+var RWD_Effect = [
     {
         img:'./mockup/03-mockup製作檔/03-圖檔/01-Bootstrap-xl-1200x1080.png',
         alt:'Bootstrap-xl.png',
+        title:'Bootstrap-xl',
         h3:'Bootstrap-xl',
         span:'1200x1080',
         li:'<li>navbar-toggler:display="none"</li><li>Programming Skill="progressbar"</li>'
@@ -300,6 +301,7 @@ var swiper_slide = [
     {
         img:'./mockup/03-mockup製作檔/03-圖檔/02-Bootstrap-lg-992x1080.png',
         alt:'Bootstrap-lg',
+        title:'Bootstrap-lg',
         h3:'Bootstrap-lg',
         span:'992x1080',
         li:'<li>navbar-toggler:display="block"</li><li>Programming Skill="donut"</li><li>profile-img="col-4"</li><li>donut-card="col-3"</li><li>education-img="col-4"</li><li>experience-img="col-4"</li>'  
@@ -307,6 +309,7 @@ var swiper_slide = [
     {
         img:'./mockup/03-mockup製作檔/03-圖檔/03-Bootstrap-md-01-768x1080.png',
         alt:'Bootstrap-md',
+        title:'Bootstrap-md',
         h3:'Bootstrap-md',
         span:'768x1080',
         li:'<li>profile-img="col-12"</li><li>donut-card="col-2"</li><li>education-img="col-12"</li>'
@@ -314,6 +317,7 @@ var swiper_slide = [
     {
         img:'./mockup/03-mockup製作檔/03-圖檔/03-Bootstrap-md-02-768x1080.png',
         alt:'Bootstrap-md',
+        title:'Bootstrap-md',
         h3:'Bootstrap-md',
         span:'768x1080',
         li:'<li>experience-img="col-12"</li>'
@@ -321,6 +325,7 @@ var swiper_slide = [
     {
         img:'./mockup/03-mockup製作檔/03-圖檔/04-Bootstrap-sm-01-576x1080.png',
         alt:'Bootstrap-sm-01',
+        title:'Bootstrap-sm',
         h3:'Bootstrap-sm',
         span:'576x1080',
         li:'<li>experience="order"</li>'
@@ -328,6 +333,7 @@ var swiper_slide = [
     {
         img:'./mockup/03-mockup製作檔/03-圖檔/04-Bootstrap-sm-02-576x1080.png',
         alt:'Bootstrap-sm-02',
+        title:'Bootstrap-sm',
         h3:'Bootstrap-sm',
         span:'576x1080',
         li:'<li>donut-card="col-3"</li><li>education-img="col-4"</li>'
@@ -335,25 +341,26 @@ var swiper_slide = [
     {
         img:'./mockup/03-mockup製作檔/03-圖檔/05-Bootstrap-xs-02-575x1080.png',
         alt:'Bootstrap-xs',
+        title:'Bootstrap-xs',
         h3:'Bootstrap-xs',
         span:'575x1080',
         li:'<li>donut-card="col-2"</li>'
     },
 ]
 
-var swiper_wrapper = document.querySelector('.swiper-wrapper')
+var rwd_Effect = document.querySelector('.RWD_Effect')
 
-for (let index = 0; index < swiper_slide.length; index++) {
-    const element_swiper_slide = swiper_slide[index];
+for (let index = 0; index < RWD_Effect.length; index++) {
+    const element_RWD_Effect = RWD_Effect[index];
     
-    swiper_wrapper.innerHTML +=`
+    rwd_Effect.innerHTML +=`
     <div class="swiper-slide cursor-pointer">
         <div class="card">
-            <img src="${element_swiper_slide.img}" alt="${element_swiper_slide.alt}" class="card__img" />
+            <img src="${element_RWD_Effect.img}" alt="${element_RWD_Effect.alt}" class="card__img" title="${element_RWD_Effect.title}">
             <div class="card__body">
-                <h3>${element_swiper_slide.h3}</h3>
-                <span>${element_swiper_slide.span}</span>
-                <ul class="list-unstyled">${element_swiper_slide.li}</ul>
+                <h3>${element_RWD_Effect.h3}</h3>
+                <span>${element_RWD_Effect.span}</span>
+                <ul class="list-unstyled">${element_RWD_Effect.li}</ul>
             </div>
         </div>
     </div>
@@ -361,7 +368,102 @@ for (let index = 0; index < swiper_slide.length; index++) {
 }
 
 // swiper.js with RWD Effect
-const mySwiper = new Swiper('.swiper-container', {
+const Swiper_RWD_Effect = new Swiper('#RWD_Effect', {
+    effect: 'coverflow',
+    slidesPerView: 'auto',
+    spaceBetween: 30,
+    loop: true,
+    centeredSlides: true,
+    coverflowEffect: {
+      slideShadows: true,
+      rotate: 20,
+      stretch: 0,
+      depth: 350,
+      modifier: 1,
+    },
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        // 選擇按鈕
+        clickable: true,
+        // 動態按鈕 /更換按鈕大小
+        dynamicBullets: true,
+    },
+    // 方向
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+});
+
+// innennerHTML with jQuery about Structure Have Use innerHTML
+var Structure_innerHTML = [
+    {
+        img:'./01-img/03-innerHTML/01-navbar-nav.jpg',
+        alt:'navbar-nav.jpg',
+        title:'navbar-nav',
+        h3:'navbar-nav',
+    },
+    {
+        img:'./01-img/03-innerHTML/02-Programming Skill_progressbar.jpg',
+        alt:'Programming Skill_progressbar.jpg',
+        title:'Programming Skill_progressbar',
+        h3:'Programming Skill_progressbar',
+    },
+    {
+        img:'./01-img/03-innerHTML/03-Education.jpg',
+        alt:'Education.jpg',
+        title:'Education',
+        h3:'Education',
+    },
+    {
+        img:'./01-img/03-innerHTML/04-Experience.jpg',
+        alt:'Experience.jpg',
+        title:'Experience',
+        h3:'Experience',
+    },
+    {
+        img:'./01-img/03-innerHTML/05-RWD Effect.jpg',
+        alt:'RWD Effect.jpg',
+        title:'RWD Effect',
+        h3:'RWD Effect',
+    },
+    {
+        img:'./01-img/03-innerHTML/06-Structure innerHTML.jpg',
+        alt:'Structure innerHTML.jpg',
+        title:'Structure Have Use innerHTML',
+        h3:'Structure Have Use innerHTML',
+    },
+    {
+        img:'./01-img/03-innerHTML/07-footer icon.jpg',
+        alt:'footer icon.jpg',
+        title:'footer icon',
+        h3:'footer icon',
+    },
+]
+
+var structure_innerHTML = document.querySelector('.Structure_innerHTML')
+
+for (let index = 0; index < Structure_innerHTML.length; index++) {
+    const element_Structure_innerHTML = Structure_innerHTML[index];
+    
+    structure_innerHTML.innerHTML +=`
+    <div class="swiper-slide cursor-pointer">
+        <div class="card">
+            <img src="${element_Structure_innerHTML.img}" alt="${element_Structure_innerHTML.alt}" class="card__img" title="${element_Structure_innerHTML.title}">
+            <div class="card__body">
+                <h3>${element_Structure_innerHTML.h3}</h3>
+            </div>
+        </div>
+    </div>
+    `
+}
+
+// swiper.js with RWD Effect
+const Swiper_Structure_innerHTML = new Swiper('#Structure_innerHTML', {
     effect: 'coverflow',
     slidesPerView: 'auto',
     spaceBetween: 30,
