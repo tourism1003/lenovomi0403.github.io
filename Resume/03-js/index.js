@@ -123,15 +123,15 @@ for (let index = 0; index < Progressbar.length; index++) {
     progressbar.innerHTML +=`
     <article>
         <div class="col mb-4">
-            <div class="card py-1" data-aos="flip-up" data-aos-duration="3000" data-aos-once="false" data-aos-delay="1500">
+            <div class="card py-1">
                 <div class="card-body">
                     <div class="progress">
-                        <div class="progress-bar ${element_progressbar.color} progress-bar-striped progress-bar-animated  animate__animated animate__rubberBand animate__infinite animate__slow"
+                        <div class="progress-bar ${element_progressbar.color} progress-bar-striped progress-bar-animated"
                             role="progressbar" style="width: ${element_progressbar.number}%;background-color: ${element_progressbar.color};" aria-valuenow="${element_progressbar.number}" aria-valuemin="0"
                             aria-valuemax="100">${element_progressbar.number}%
                         </div>
                     </div>
-                    <h6><div class="label text-center mt-3" data-scroll><mark style="padding:0 10px;">${element_progressbar.project}</mark></div></h6>
+                    <h6><div class="label text-center mt-3"><mark style="padding:0 10px;">${element_progressbar.project}</mark></div></h6>
                 </div>
             </div>
         </div>
@@ -170,7 +170,7 @@ for (let index = 0; index < Education.length; index++) {
 
     education.innerHTML += `
     <article>
-        <div class="card my-3 py-1" data-aos="flip-up" data-aos-duration="3000" data-aos-once="false" data-aos-delay="1800">
+        <div class="card my-3 py-1">
             <div class="row no-gutters">
                 <div class="col-4 col-md-12 col-lg-4 d-flex align-self-center" style="height:100px">
                     <img class="card-img-top mx-auto align-self-center m-3"
@@ -179,7 +179,7 @@ for (let index = 0; index < Education.length; index++) {
                         title="${element_education.title}">
                 </div>
                 <div class="col-8">
-                    <div class="card-body" style="padding-bottom: unset;"  data-scroll>
+                    <div class="card-body" style="padding-bottom: unset;" >
                         <h5 class="h5-responsive font-weight-bold"><mark style="padding:0 10px 0 0;">${element_education.department}</mark></h5>
                         <p>${element_education.name}</p>
                         <p><small>${element_education.degree}</small></p>
@@ -256,7 +256,7 @@ for (let index = 0; index < Experience.length; index++) {
 
     experience.innerHTML += `
     <article>
-        <div class="card mb-4" data-aos="flip-up" data-aos-duration="3000" data-aos-once="false" data-aos-delay="600">
+        <div class="card mb-4">
             <div class="row no-gutters">
                 <div class="col-12 col-lg-4 d-flex">
                     <a href="${element_experience.url}" target="_blank" class="d-flex mx-auto">
@@ -268,7 +268,7 @@ for (let index = 0; index < Experience.length; index++) {
                     </a>
                 </div>
                 <div class="col-12 col-lg-8">
-                    <div class="card-body" data-scroll>
+                    <div class="card-body">
                         <h5 class="h5-responsive font-weight-bold">${element_experience.title}</h5>
                         <div class="pt-2">
                             ${element_experience.company}<br>
@@ -382,7 +382,7 @@ const Swiper_RWD_Effect = new Swiper('#RWD_Effect', {
       modifier: 1,
     },
     autoplay: {
-        delay: 5000,
+        delay: 3000,
         disableOnInteraction: false,
     },
     pagination: {
@@ -477,7 +477,7 @@ const Swiper_Structure_innerHTML = new Swiper('#Structure_innerHTML', {
       modifier: 1,
     },
     autoplay: {
-        delay: 5000,
+        delay: 3000,
         disableOnInteraction: false,
     },
     pagination: {
