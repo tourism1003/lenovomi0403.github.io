@@ -288,6 +288,32 @@ for (let index = 0; index < Experience.length; index++) {
     `
 }
 
+var rwd_effect_viewon = [
+    {
+        url:'https://issuu.com/home/published/resume_website_rwd_effect_mockup',
+        icon:'https://img.icons8.com/color/22/000000/issuu.png',
+        alt:'issuu',
+        title:'issuu',
+    },
+    {
+        url:'https://www.pinterest.com/lenovomi0403/front-end-website/resume-website-rwd-effect-mockup/',
+        icon:'https://img.icons8.com/color/22/000000/pinterest.png',
+        alt:'pinterest',
+        title:'pinterest',
+    },
+]
+
+var rwd_effect_icon = document.querySelector('.rwd_effect_icon')
+
+for (let index = 0; index < rwd_effect_viewon.length; index++) {
+    const element_rwd_effect_viewon = rwd_effect_viewon[index];
+    
+    rwd_effect_icon.innerHTML +=`
+    <a href="${element_rwd_effect_viewon.url}" target="_blank">
+        <img src="${element_rwd_effect_viewon.icon}" alt="${element_rwd_effect_viewon.alt}.png" title="view on ${element_rwd_effect_viewon.title}">&nbsp;
+    </a>
+    `
+}
 // ↓ innennerHTML with jQuery about RWD Effect
 var RWD_Effect = [
     {
@@ -354,8 +380,8 @@ for (let index = 0; index < RWD_Effect.length; index++) {
     const element_RWD_Effect = RWD_Effect[index];
     
     rwd_Effect.innerHTML +=`
-    <div class="swiper-slide cursor-pointer">
-        <div class="card">
+    <div class="swiper-slide">
+        <div class="card cursor-pointer">
             <img src="${element_RWD_Effect.img}" alt="${element_RWD_Effect.alt}" class="card__img" title="${element_RWD_Effect.title}">
             <div class="card__body">
                 <h3>${element_RWD_Effect.h3}</h3>
