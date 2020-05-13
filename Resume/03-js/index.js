@@ -295,7 +295,7 @@ var RWD_Effect = [
         alt:'Bootstrap-xl.png',
         title:'Bootstrap-xl',
         h3:'Bootstrap-xl',
-        span:'1200x1080',
+        span:'Extra large≥1200px',
         li:'<li>navbar-toggler:display="none"</li><li>Programming Skill="progressbar"</li>'
     },
     {
@@ -303,7 +303,7 @@ var RWD_Effect = [
         alt:'Bootstrap-lg',
         title:'Bootstrap-lg',
         h3:'Bootstrap-lg',
-        span:'992x1080',
+        span:'Large≥992px',
         li:'<li>navbar-toggler:display="block"</li><li>Programming Skill="donut"</li><li>profile-img="col-4"</li><li>donut-card="col-3"</li><li>education-img="col-4"</li><li>experience-img="col-4"</li>'  
     },
     {
@@ -311,23 +311,23 @@ var RWD_Effect = [
         alt:'Bootstrap-md',
         title:'Bootstrap-md',
         h3:'Bootstrap-md',
-        span:'768x1080',
-        li:'<li>profile-img="col-12"</li><li>donut-card="col-2"</li><li>education-img="col-12"</li>'
+        span:'Medium≥768px',
+        li:'<li>profile-img="col-12"</li><li>donut-card="col-2"</li>'
     },
     {
         img:'./mockup/03-mockup製作檔/03-圖檔/03-Bootstrap-md-02-768x1080.png',
         alt:'Bootstrap-md',
         title:'Bootstrap-md',
         h3:'Bootstrap-md',
-        span:'768x1080',
-        li:'<li>experience-img="col-12"</li>'
+        span:'Medium≥768px',
+        li:'<li>education-img="col-12"</li><li>experience-img="col-12"</li>'
     },
     {
         img:'./mockup/03-mockup製作檔/03-圖檔/04-Bootstrap-sm-01-576x1080.png',
         alt:'Bootstrap-sm-01',
         title:'Bootstrap-sm',
         h3:'Bootstrap-sm',
-        span:'576x1080',
+        span:'Small≥576px',
         li:'<li>experience="order"</li>'
     },
     {
@@ -335,7 +335,7 @@ var RWD_Effect = [
         alt:'Bootstrap-sm-02',
         title:'Bootstrap-sm',
         h3:'Bootstrap-sm',
-        span:'576x1080',
+        span:'Small≥576px',
         li:'<li>donut-card="col-3"</li><li>education-img="col-4"</li>'
     },
     {
@@ -343,7 +343,7 @@ var RWD_Effect = [
         alt:'Bootstrap-xs',
         title:'Bootstrap-xs',
         h3:'Bootstrap-xs',
-        span:'575x1080',
+        span:'Extra small<576px',
         li:'<li>donut-card="col-2"</li>'
     },
 ]
