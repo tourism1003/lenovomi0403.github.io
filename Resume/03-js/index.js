@@ -290,7 +290,7 @@ for (let index = 0; index < Experience.length; index++) {
 
 var rwd_effect_viewon = [
     {
-        url:'https://issuu.com/home/published/resume_website_rwd_effect_mockup',
+        url:'https://issuu.com/lenovomi0403/docs/resume_website_rwd_effect_mockup',
         icon:'https://img.icons8.com/color/22/000000/issuu.png',
         alt:'issuu',
         title:'issuu',
