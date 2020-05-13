@@ -185,6 +185,7 @@ body {
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+  border-radius: 50px;
 }
 
 .swiper-container .swiper-slide .card .card__body {

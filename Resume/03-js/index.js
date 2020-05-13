@@ -4,10 +4,6 @@ var nav_Btn = [
         name:'[&nbsp;掀冊店&nbsp;]&nbsp;獨立書店'
     },
     {
-        url:'https://issuu.com/lenovomi0403/docs/graphic_design_learning_process',
-        name:'Graphic Design'
-    },
-    {
         url:'https://lenovomi0403.github.io/Learning%20process/Resume/',
         name:'Resume with Semantic UI'
     }
@@ -20,6 +16,30 @@ for (let index = 0; index < nav_Btn.length; index++) {
     
     nav_BTN.innerHTML +=`
     <a type="button" href="${element_navbtn.url}" target="_blank" title="可以 ctrl 按著再點超連結" class="btn hvr-reveal indigo darken-2 px-2" style="color: white">${element_navbtn.name}</a>
+    `
+}
+
+var Design = [
+    {
+        url:'https://issuu.com/lenovomi0403/docs/resume_website_rwd_effect_mockup',
+        name:'RWD Effect on issuu'
+    },
+    {
+        url:'https://www.pinterest.com/lenovomi0403/front-end-website/resume-website-rwd-effect-mockup/',
+        name:'RWD Effect on Pinterest'
+    },{
+        url:'https://issuu.com/lenovomi0403/docs/graphic_design_learning_process',
+        name:'Graphic Design Learning Process'
+    }
+]
+
+var design = document.querySelector('#design')
+
+for (let index = 0; index < Design.length; index++) {
+    const element_Design = Design[index];
+    
+    design.innerHTML +=`
+    <a type="button" href="${element_Design.url}" target="_blank" title="可以 ctrl 按著再點超連結" style="color: black" class="hvr-reveal indigo lighten-3">${element_Design.name}</a>
     `
 }
 
@@ -262,7 +282,7 @@ for (let index = 0; index < Experience.length; index++) {
                     <a href="${element_experience.url}" target="_blank" class="d-flex mx-auto">
                         <img class="card-img-top align-self-center m-3"
                             src="${element_experience.img}" alt="${element_experience.alt}"
-                            style="${element_experience.size}"
+                            style="${element_experience.size};"
                             title="${element_experience.img_title}">
                             <div style="display:none">${element_experience.name}</div>
                     </a>
@@ -382,8 +402,8 @@ for (let index = 0; index < RWD_Effect.length; index++) {
     rwd_Effect.innerHTML +=`
     <div class="swiper-slide">
         <div class="card cursor-pointer">
-            <img src="${element_RWD_Effect.img}" alt="${element_RWD_Effect.alt}" class="card__img" title="${element_RWD_Effect.title}">
-            <div class="card__body">
+            <img src="${element_RWD_Effect.img}" alt="${element_RWD_Effect.alt}" class="card__img z-depth-3" title="${element_RWD_Effect.title}">
+            <div class="card__body mt-3">
                 <h3>${element_RWD_Effect.h3}</h3>
                 <span>${element_RWD_Effect.span}</span>
                 <ul class="list-unstyled">${element_RWD_Effect.li}</ul>
@@ -479,8 +499,8 @@ for (let index = 0; index < Structure_innerHTML.length; index++) {
     structure_innerHTML.innerHTML +=`
     <div class="swiper-slide cursor-pointer">
         <div class="card">
-            <img src="${element_Structure_innerHTML.img}" alt="${element_Structure_innerHTML.alt}" class="card__img" title="${element_Structure_innerHTML.title}">
-            <div class="card__body">
+            <img src="${element_Structure_innerHTML.img}" alt="${element_Structure_innerHTML.alt}" class="card__img z-depth-3" title="${element_Structure_innerHTML.title}">
+            <div class="card__body mt-3">
                 <h3>${element_Structure_innerHTML.h3}</h3>
             </div>
         </div>
