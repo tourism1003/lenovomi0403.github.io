@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 body {
   background-color: #E9EBEE;
   cursor: context-menu;
@@ -36,6 +41,34 @@ body {
   stroke: #d50000;
 }
 
+.svg-item .donut-segment-2 {
+  animation: donut-chart-fill 1s reverse ease-in;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  stroke: #2962ff;
+}
+
+.svg-item .donut-segment-3 {
+  animation: donut-chart-fill 1s reverse ease-in;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  stroke: #ffab00;
+}
+
+.svg-item .donut-segment-5 {
+  animation: donut-chart-fill 1s reverse ease-in;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  stroke: #00bfa5;
+}
+
+.svg-item .donut-segment-6 {
+  animation: donut-chart-fill 1s reverse ease-in;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  stroke: #00c853;
+}
+
 .svg-item .donut-text {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -48,54 +81,12 @@ body {
           transform: translateY(0.5em);
 }
 
-.svg-item {
-  width: 100px;
-  height: 100px;
-  font-size: 16px;
-}
-
-.svg-item .donut-ring {
-  stroke: #EBEBEB;
-}
-
-.svg-item .donut-segment-2 {
-  animation: donut-chart-fill 1s reverse ease-in;
-  -webkit-transform-origin: center;
-          transform-origin: center;
-  stroke: #2962ff;
-}
-
-.svg-item .donut-text {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .svg-item .donut-text .donut-percent-2 {
   font-size: 0.5em;
   fill: #2196f3;
   line-height: 1;
   -webkit-transform: translateY(0.5em);
           transform: translateY(0.5em);
-}
-
-.svg-item {
-  width: 100px;
-  height: 100px;
-  font-size: 16px;
-}
-
-.svg-item .donut-ring {
-  stroke: #EBEBEB;
-}
-
-.svg-item .donut-segment-3 {
-  animation: donut-chart-fill 1s reverse ease-in;
-  -webkit-transform-origin: center;
-          transform-origin: center;
-  stroke: #ffab00;
-}
-
-.svg-item .donut-text {
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .svg-item .donut-text .donut-percent-3 {
@@ -106,54 +97,12 @@ body {
           transform: translateY(0.5em);
 }
 
-.svg-item {
-  width: 100px;
-  height: 100px;
-  font-size: 16px;
-}
-
-.svg-item .donut-ring {
-  stroke: #EBEBEB;
-}
-
-.svg-item .donut-segment-5 {
-  animation: donut-chart-fill 1s reverse ease-in;
-  -webkit-transform-origin: center;
-          transform-origin: center;
-  stroke: #00bfa5;
-}
-
-.svg-item .donut-text {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .svg-item .donut-text .donut-percent-5 {
   font-size: 0.5em;
   fill: #009688;
   line-height: 1;
   -webkit-transform: translateY(0.5em);
           transform: translateY(0.5em);
-}
-
-.svg-item {
-  width: 100px;
-  height: 100px;
-  font-size: 16px;
-}
-
-.svg-item .donut-ring {
-  stroke: #EBEBEB;
-}
-
-.svg-item .donut-segment-6 {
-  animation: donut-chart-fill 1s reverse ease-in;
-  -webkit-transform-origin: center;
-          transform-origin: center;
-  stroke: #00c853;
-}
-
-.svg-item .donut-text {
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .svg-item .donut-text .donut-percent-6 {

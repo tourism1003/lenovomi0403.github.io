@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
 body{
     background-color: #E9EBEE;
     cursor:context-menu;
@@ -29,106 +34,22 @@ body{
         stroke: #d50000;
     }
 
-    .donut-text {
-        font-family: Arial, Helvetica, sans-serif;
-
-        .donut-percent-1 {
-            font-size: 0.5em;
-            fill: #f44336;
-            line-height: 1;
-            transform: translateY(0.5em);
-        }
-    }
-}
-
-.svg-item {
-    width: 100px;
-    height: 100px;
-    font-size: 16px;
-
-    .donut-ring {
-        stroke: #EBEBEB;
-    }
-
     .donut-segment-2 {
         animation: donut-chart-fill 1s reverse ease-in;
         transform-origin: center;
         stroke: #2962ff;
     }
-
-    .donut-text {
-        font-family: Arial, Helvetica, sans-serif;
-
-        .donut-percent-2 {
-            font-size: 0.5em;
-            fill: #2196f3;
-            line-height: 1;
-            transform: translateY(0.5em);
-        }
-    }
-}
-
-.svg-item {
-    width: 100px;
-    height: 100px;
-    font-size: 16px;
-
-    .donut-ring {
-        stroke: #EBEBEB;
-    }
-
+    
     .donut-segment-3 {
         animation: donut-chart-fill 1s reverse ease-in;
         transform-origin: center;
         stroke: #ffab00;
     }
 
-    .donut-text {
-        font-family: Arial, Helvetica, sans-serif;
-
-        .donut-percent-3 {
-            font-size: 0.5em;
-            fill: #ffca28;
-            line-height: 1;
-            transform: translateY(0.5em);
-        }
-    }
-}
-
-.svg-item {
-    width: 100px;
-    height: 100px;
-    font-size: 16px;
-
-    .donut-ring {
-        stroke: #EBEBEB;
-    }
-
     .donut-segment-5 {
         animation: donut-chart-fill 1s reverse ease-in;
         transform-origin: center;
         stroke: #00bfa5;
-    }
-
-    .donut-text {
-        font-family: Arial, Helvetica, sans-serif;
-
-        .donut-percent-5 {
-            font-size: 0.5em;
-            fill: #009688;
-            line-height: 1;
-            transform: translateY(0.5em);
-        }
-    }
-}
-
-.svg-item {
-    width: 100px;
-    height: 100px;
-    font-size: 16px;
-
-    .donut-ring {
-        stroke: #EBEBEB;
     }
 
     .donut-segment-6 {
@@ -139,6 +60,34 @@ body{
 
     .donut-text {
         font-family: Arial, Helvetica, sans-serif;
+
+        .donut-percent-1 {
+            font-size: 0.5em;
+            fill: #f44336;
+            line-height: 1;
+            transform: translateY(0.5em);
+        }
+
+        .donut-percent-2 {
+            font-size: 0.5em;
+            fill: #2196f3;
+            line-height: 1;
+            transform: translateY(0.5em);
+        }
+
+        .donut-percent-3 {
+            font-size: 0.5em;
+            fill: #ffca28;
+            line-height: 1;
+            transform: translateY(0.5em);
+        }
+
+        .donut-percent-5 {
+            font-size: 0.5em;
+            fill: #009688;
+            line-height: 1;
+            transform: translateY(0.5em);
+        }
 
         .donut-percent-6 {
             font-size: 0.5em;

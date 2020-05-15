@@ -1,3 +1,6 @@
+// aos.js with section
+AOS.init();
+
 var nav_Btn = [
     {
         url:'https://lenovomi0403.github.io/taketheseawind/',
@@ -19,6 +22,24 @@ for (let index = 0; index < nav_Btn.length; index++) {
     `
 }
 
+var dropDown = [
+    {
+        title:'',
+        name:'Graphic Design',
+        id:'#design'
+    },
+    {
+        title:'從 linktr.ee 連到 Github / Learning process / 後，可以看到更多',
+        name:'HTML&nbsp;+&nbsp;CSS&nbsp;',
+        id:'menu_1'
+    },
+    {
+        title:'從 linktr.ee 連到 Github / Learning process / 後，可以看到更多',
+        name:'JavaScript&nbsp;',
+        id:'menu_2'
+    },
+]
+
 var Design = [
     {
         url:'https://issuu.com/lenovomi0403/docs/resume_website_rwd_effect_mockup',
@@ -27,7 +48,8 @@ var Design = [
     {
         url:'https://www.pinterest.com/lenovomi0403/front-end-website/resume-website-rwd-effect-mockup/',
         name:'RWD Effect on Pinterest'
-    },{
+    },
+    {
         url:'https://issuu.com/lenovomi0403/docs/graphic_design_learning_process',
         name:'Graphic Design Learning Process'
     }
@@ -159,6 +181,107 @@ for (let index = 0; index < Progressbar.length; index++) {
     `
 }
 
+// ↓ innennerHTML with jQuery about donut
+var skill_donut = [
+    {
+        order_:'1',
+        order_sm:'1',
+        order_md:'1',
+        order_lg:'1',
+        class_number:'1',
+        stroke_dasharray_value:'20 80',
+        value:'20',
+        font_Size:'16',
+        project:'Photoshop',
+    },
+    {
+        order_:'3',
+        order_sm:'2',
+        order_md:'3',
+        order_lg:'2',
+        class_number:'3',
+        stroke_dasharray_value:'55 45',
+        value:'55',
+        font_Size:'16',
+        project:'HTML + CSS',
+    },
+    {
+        order_:'5',
+        order_sm:'3',
+        order_md:'5',
+        order_lg:'3',
+        class_number:'5',
+        stroke_dasharray_value:'95 5',
+        value:'95',
+        font_Size:'16',
+        project:'Read File',
+    },
+    {
+        order_:'2',
+        order_sm:'4',
+        order_md:'2',
+        order_lg:'4',
+        class_number:'2',
+        stroke_dasharray_value:'60 40',
+        value:'60',
+        font_Size:'16',
+        project:'illustrator',
+    },
+    {
+        order_:'4',
+        order_sm:'5',
+        order_md:'4',
+        order_lg:'5',
+        class_number:'1',
+        stroke_dasharray_value:'20 80',
+        value:'20',
+        font_Size:'12',
+        project:'JavaScript + jQuery',
+    },
+    {
+        order_:'6',
+        order_sm:'6',
+        order_md:'6',
+        order_lg:'6',
+        class_number:'6',
+        stroke_dasharray_value:'100 0',
+        value:'100',
+        font_Size:'12',
+        project:'Google First → Ask',
+    }
+]
+
+var Donut = document.querySelector('#donut')
+
+for (let index = 0; index < skill_donut.length; index++) {
+    const element_skill_donut = skill_donut[index];
+    
+    Donut.innerHTML += `
+    <article class="order-${element_skill_donut.order_} order-sm-${element_skill_donut.order_sm} order-md-${element_skill_donut.order_md} order-lg-${element_skill_donut.order_lg}">
+        <div class="col mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <div class="svg-item mx-auto">
+                        <svg width="100%" height="100%" viewBox="0 0 40 40" class="donut">
+                            <circle class="donut-hole" cx="20" cy="20" r="15.91549430918954" fill="#fff"></circle>
+                            <circle class="donut-ring" cx="20" cy="20" r="15.91549430918954" fill="transparent" stroke-width="3.5"></circle>
+                            <circle class="donut-segment-${element_skill_donut.class_number}" cx="20" cy="20" r="15.91549430918954" fill="transparent" stroke-width="3.5" stroke-dasharray="${element_skill_donut.stroke_dasharray_value}" stroke-dashoffset="25"></circle>
+                            <g class="donut-text">
+                                <text y="50%" transform="translate(0, 2)">
+                                    <tspan x="50%" text-anchor="middle" class="donut-percent-${element_skill_donut.class_number}">${element_skill_donut.value}%</tspan>
+                                </text>
+                            </g>
+                        </svg>
+                    </div>
+                    <h6>
+                        <div class="label text-center mt-3" style="font-size:${element_skill_donut.font_Size}px"><mark style="padding:0 10px;">${element_skill_donut.project}</mark></div>
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </article>
+    `
+}
 // ↓ innennerHTML with jQuery about education
 var Education = [
     {
@@ -404,7 +527,7 @@ for (let index = 0; index < RWD_Effect.length; index++) {
         <div class="card cursor-pointer">
             <img src="${element_RWD_Effect.img}" alt="${element_RWD_Effect.alt}" class="card__img z-depth-3" title="${element_RWD_Effect.title}">
             <div class="card__body mt-3">
-                <h3>${element_RWD_Effect.h3}</h3>
+                <h3><mark style="padding:10px 5px;">${element_RWD_Effect.h3}</mark></h3>
                 <span>${element_RWD_Effect.span}</span>
                 <ul class="list-unstyled">${element_RWD_Effect.li}</ul>
             </div>
@@ -454,10 +577,10 @@ var Structure_innerHTML = [
         h3:'navbar-nav',
     },
     {
-        img:'./01-img/03-innerHTML/02-Programming Skill_progressbar.jpg',
-        alt:'Programming Skill_progressbar.jpg',
-        title:'Programming Skill_progressbar',
-        h3:'Programming Skill_progressbar',
+        img:'./01-img/03-innerHTML/02-Programming Skill.jpg',
+        alt:'Programming Skill.jpg',
+        title:'Programming Skill',
+        h3:'Programming Skill',
     },
     {
         img:'./01-img/03-innerHTML/03-Education.jpg',
@@ -501,7 +624,7 @@ for (let index = 0; index < Structure_innerHTML.length; index++) {
         <div class="card">
             <img src="${element_Structure_innerHTML.img}" alt="${element_Structure_innerHTML.alt}" class="card__img z-depth-3" title="${element_Structure_innerHTML.title}">
             <div class="card__body mt-3">
-                <h3>${element_Structure_innerHTML.h3}</h3>
+                <h3><mark style="padding:10px 5px;">${element_Structure_innerHTML.h3}</mark></h3>
             </div>
         </div>
     </div>
