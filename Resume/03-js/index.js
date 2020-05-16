@@ -7,8 +7,8 @@ var nav_Btn = [
         name:'[&nbsp;掀冊店&nbsp;]&nbsp;獨立書店'
     },
     {
-        url:'https://lenovomi0403.github.io/Learning%20process/Resume/',
-        name:'Resume with Semantic UI'
+        url:'https://issuu.com/lenovomi0403/docs/graphic_design_learning_process',
+        name:'Graphic Design'
     }
 ]
 
@@ -42,16 +42,16 @@ var dropDown = [
 
 var Design = [
     {
+        url:'https://github.com/lenovomi0403/lenovomi0403.github.io/blob/master/Resume/README.md',
+        name:'README.md'
+    },
+    {
         url:'https://issuu.com/lenovomi0403/docs/resume_website_rwd_effect_mockup',
         name:'RWD Effect on issuu'
     },
     {
         url:'https://www.pinterest.com/lenovomi0403/front-end-website/resume-website-rwd-effect-mockup/',
         name:'RWD Effect on Pinterest'
-    },
-    {
-        url:'https://issuu.com/lenovomi0403/docs/graphic_design_learning_process',
-        name:'Graphic Design Learning Process'
     }
 ]
 
@@ -66,6 +66,10 @@ for (let index = 0; index < Design.length; index++) {
 }
 
 var Menu_1 = [
+    {
+        url:'https://lenovomi0403.github.io/Learning%20process/Resume/',
+        name:'Resume with Semantic UI'
+    },
     {
         url:'https://lenovomi0403.github.io/Learning%20process/2020-03-12-W3Cparallax/',
         name:'Parallax&nbsp;Practice',
