@@ -670,6 +670,12 @@ const Swiper_Structure_innerHTML = new Swiper('#Structure_innerHTML', {
 // ↓ innennerHTML with jQuery about footer icon
 var Icon = [
     {
+        url:'https://github.com/lenovomi0403/lenovomi0403.github.io/blob/master/Resume/README.md',
+        icon:'./01-img/01-img/06-readme-brands.png',
+        alt:'README.md.png',
+        name:'README.md',
+    },
+    {
         url:'https://www.cakeresume.com/lenovomi0403',
         icon:'./01-img/01-img/02_cakeresume.png',
         alt:'cakeresume.png',
@@ -704,6 +710,12 @@ var Icon = [
         icon:'https://img.icons8.com/color/48/000000/github.png',
         alt:'github.png',
         name:'github',
+    },
+    {
+        url:'https://my.indeed.com/p/giu0q2d',
+        icon:'./01-img/01-img/07-indeed.png',
+        alt:'indeed.png',
+        name:'indeed',
     },
     {
         url:'https://www.instagram.com/lenovomi0403/',
@@ -744,7 +756,7 @@ for (let index = 0; index < Icon.length; index++) {
     
     icon.innerHTML +=`
     <a href="${element_icon.url}" target="_blank">
-        <img src="${element_icon.icon}" alt="${element_icon.alt}" class="fa-lg white-text mr-lg-5 mr-md-2 fa-2x" title="可以 ctrl 按著再點超連結">
+        <img src="${element_icon.icon}" alt="${element_icon.alt}" class="fa-lg white-text mx-lg-3 mr-md-2 fa-2x" title="可以 ctrl 按著再點超連結">
         <div style="display:none">${element_icon.name}</div>
     </a>
     `
