@@ -40,9 +40,9 @@ var dropDown = [
     },
 ]
 
-var Design = [
+var About = [
     {
-        url:'https://github.com/lenovomi0403/lenovomi0403.github.io/blob/master/Resume/README.md',
+        url:'https://lenovomi0403.github.io/Resume/README.md',
         name:'README.md'
     },
     {
@@ -55,13 +55,13 @@ var Design = [
     }
 ]
 
-var design = document.querySelector('#design')
+var about = document.querySelector('#about')
 
-for (let index = 0; index < Design.length; index++) {
-    const element_Design = Design[index];
+for (let index = 0; index < About.length; index++) {
+    const element_about = About[index];
     
-    design.innerHTML +=`
-    <a type="button" href="${element_Design.url}" target="_blank" title="可以 ctrl 按著再點超連結" style="color: black" class="hvr-reveal indigo lighten-3">${element_Design.name}</a>
+    about.innerHTML +=`
+    <a type="button" href="${element_about.url}" target="_blank" title="可以 ctrl 按著再點超連結" style="color: black" class="hvr-reveal indigo lighten-3">${element_about.name}</a>
     `
 }
 
