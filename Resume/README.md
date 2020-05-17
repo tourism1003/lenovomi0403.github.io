@@ -23,15 +23,26 @@
 ![image](https://lenovomi0403.github.io/Resume/01-img/04-README.md/03-Resume%20Website%20RWD%20Effect%20mockup.png)
 
     * `Bootstrap-xl` ：Extra large≥1200px
-        * navbar-toggler&ensp;![#FF83FA](https://placehold.it/15/FF83FA/000000?text=+) : `display="none"`</li><li>Programming Skill&ensp;![#2962ff](https://placehold.it/15/2962ff/000000?text=+) ="`progressbar`"
+        * ![#FF83FA](https://placehold.it/15/FF83FA/000000?text=+)&ensp;navbar-toggler&ensp;![#FF83FA](https://placehold.it/15/FF83FA/000000?text=+) : `display="none"`
+        * ![#2962ff](https://placehold.it/15/2962ff/000000?text=+)&ensp;Programming Skill&ensp;![#2962ff](https://placehold.it/15/2962ff/000000?text=+) ="`progressbar`"
     * `Bootstrap-lg` ：Large≥992px
-        * navbar-toggler&ensp;![#FF83FA](https://placehold.it/15/FF83FA/000000?text=+) : `display="block"`</li><li>Programming Skill&ensp;![#2962ff](https://placehold.it/15/2962ff/000000?text=+) ="`donut`"</li><li>profile-img&ensp;![#00e676](https://placehold.it/15/00e676/000000?text=+) ="`col-4`"</li><li>donut-card&ensp;![#6200ea](https://placehold.it/15/6200ea/000000?text=+) ="`col-3`"</li><li>education-img&ensp;![#004d40](https://placehold.it/15/004d40/000000?text=+) ="`col-4`"</li><li>experience-img&ensp;![#827717](https://placehold.it/15/8277175/000000?text=+) ="`col-4`"</li>
+        * ![#FF83FA](https://placehold.it/15/FF83FA/000000?text=+)&ensp;navbar-toggler&ensp;![#FF83FA](https://placehold.it/15/FF83FA/000000?text=+) : `display="block"`
+        * ![#2962ff](https://placehold.it/15/2962ff/000000?text=+)&ensp;Programming Skill&ensp;![#2962ff](https://placehold.it/15/2962ff/000000?text=+) ="`donut`"
+        * ![#00e676](https://placehold.it/15/00e676/000000?text=+)&ensp;profile-img&ensp;![#00e676](https://placehold.it/15/00e676/000000?text=+) ="`col-4`"
+        * ![#6200ea](https://placehold.it/15/6200ea/000000?text=+)&ensp;donut-card&ensp;![#6200ea](https://placehold.it/15/6200ea/000000?text=+) ="`col-3`"
+        * ![#004d40](https://placehold.it/15/004d40/000000?text=+)&ensp;education-img&ensp;![#004d40](https://placehold.it/15/004d40/000000?text=+) ="`col-4`"
+        * ![#827717](https://placehold.it/15/827717/000000?text=+)&ensp;experience-img&ensp;![#827717](https://placehold.it/15/827717/000000?text=+) ="`col-4`"
     * `Bootstrap-md` ：Medium≥768px
-        * profile-img&ensp;![#00e676](https://placehold.it/15/00e676/000000?text=+) ="`col-12`"</li><li>donut-card&ensp;![#6200ea](https://placehold.it/15/6200ea/000000?text=+) ="`col-2`"</li><li>education-img&ensp;![#004d40](https://placehold.it/15/004d40/000000?text=+) ="`col-12`"</li><li>experience-img&ensp;![#827717](https://placehold.it/15/827717/000000?text=+) ="`col-12`"</li>
+        * ![#00e676](https://placehold.it/15/00e676/000000?text=+)&ensp;profile-img&ensp;![#00e676](https://placehold.it/15/00e676/000000?text=+) ="`col-12`"
+        * ![#6200ea](https://placehold.it/15/6200ea/000000?text=+)&ensp;donut-card&ensp;![#6200ea](https://placehold.it/15/6200ea/000000?text=+) ="`col-2`"
+        * ![#004d40](https://placehold.it/15/004d40/000000?text=+)&ensp;education-img&ensp;![#004d40](https://placehold.it/15/004d40/000000?text=+) ="`col-12`"
+        * ![#827717](https://placehold.it/15/827717/000000?text=+)&ensp;experience-img&ensp;![#827717](https://placehold.it/15/827717/000000?text=+) ="`col-12`"
     * `Bootstrap-sm` ：Small≥576px,
-        * experience ="`order`"</li><li>donut-card&ensp;![#6200ea](https://placehold.it/15/6200ea/000000?text=+) ="`col-3`"</li><li>education-img&ensp;![#004d40](https://placehold.it/15/004d40/000000?text=+) ="`col-4`"</li>
+        * experience ="`order`"
+        * ![#6200ea](https://placehold.it/15/6200ea/000000?text=+)&ensp;donut-card&ensp;![#6200ea](https://placehold.it/15/6200ea/000000?text=+) ="`col-3`"
+        * ![#004d40](https://placehold.it/15/004d40/000000?text=+)&ensp;education-img&ensp;![#004d40](https://placehold.it/15/004d40/000000?text=+) ="`col-4`"
     * `Bootstrap-xs` ：Extra small<576px
-        * donut-card&ensp;![#6200ea](https://placehold.it/15/6200ea/000000?text=+) ="`col-2`"</li>
+        * ![#6200ea](https://placehold.it/15/6200ea/000000?text=+)&ensp;donut-card&ensp;![#6200ea](https://placehold.it/15/6200ea/000000?text=+) ="`col-2`"
 # Front-End Architecture
 * HTML
     * `Navbar-button`，以及 `"Programming Skill" Section`、`"Education" Section`、`"Experience" Section`、`"RWD Effect" Section`、`"Structure Have Use innerHTML" Section`、`"footer icon" Section` 等主要區塊有使用 `innerHTML` ，達到簡化結構的效果
