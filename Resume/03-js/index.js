@@ -42,7 +42,7 @@ var dropDown = [
 
 var About = [
     {
-        url:'https://lenovomi0403.github.io/Resume/Marked',
+        url:'https://lenovomi0403.github.io/Resume/README.md',
         name:'README.md'
     },
     {
