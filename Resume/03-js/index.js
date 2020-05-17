@@ -22,24 +22,6 @@ for (let index = 0; index < nav_Btn.length; index++) {
     `
 }
 
-var dropDown = [
-    {
-        title:'',
-        name:'Graphic Design',
-        id:'#design'
-    },
-    {
-        title:'從 linktr.ee 連到 Github / Learning process / 後，可以看到更多',
-        name:'HTML&nbsp;+&nbsp;CSS&nbsp;',
-        id:'menu_1'
-    },
-    {
-        title:'從 linktr.ee 連到 Github / Learning process / 後，可以看到更多',
-        name:'JavaScript&nbsp;',
-        id:'menu_2'
-    },
-]
-
 var About = [
     {
         url:'https://lenovomi0403.github.io/Resume/README.md',
@@ -670,8 +652,8 @@ const Swiper_Structure_innerHTML = new Swiper('#Structure_innerHTML', {
 // ↓ innennerHTML with jQuery about footer icon
 var Icon = [
     {
-        url:'https://github.com/lenovomi0403/lenovomi0403.github.io/blob/master/Resume/README.md',
-        icon:'./01-img/01-img/06-readme-brands.png',
+        url:'https://lenovomi0403.github.io/Resume/README.md/',
+        icon:'./01-img/01-img/06-Marked.png',
         alt:'README.md.png',
         name:'README.md',
     },
