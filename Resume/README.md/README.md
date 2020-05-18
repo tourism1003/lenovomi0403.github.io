@@ -68,6 +68,9 @@ https://codepen.io/sandersu/pen/gerEbM
 Paragraph `3D Coverflow Effect` 的 `2. Card`<br>
 https://hackmd.io/@chupai/BkohH4KzL
 
+* `Swiper.js Netflix Style Hover Effect 效果` ： <br>[How to Re-Create a Nifty Netflix Animation in CSS](https://css-tricks.com/how-to-re-create-a-nifty-netflix-animation-in-css/)<br>
+https://css-tricks.com/how-to-re-create-a-nifty-netflix-animation-in-css/
+
 * `Mockup template` ： [12 Column Vector Grid Draft (Mobile, Tablet, Desktop)](https://dribbble.com/shots/1711320-12-Column-Vector-Grid-Draft-Mobile-Tablet-Desktop)<br>
 https://dribbble.com/shots/1711320-12-Column-Vector-Grid-Draft-Mobile-Tablet-Desktop
 ###### Very thank you about your provide.<br><br>

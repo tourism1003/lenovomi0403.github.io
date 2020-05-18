@@ -139,3 +139,42 @@ body{
         }
     }
 }
+
+// Netflix Style Hover Effect
+.swiper-slide{
+    display: flex;
+    margin: 130px 0;
+}
+
+.card{
+    position: relative;
+  display: block;
+  flex: 1 1 0px;
+  transition: transform 500ms;
+}
+
+.swiper-slide:focus-within .card,
+.swiper-slide:hover .card {
+  transform: translateX(-25%);
+}
+
+.card:focus ~ .card,
+.card:hover ~ .card {
+  transform: translateX(25%);
+}
+
+.swiper-slide .card:focus,
+.swiper-slide .card:hover {
+  transform: scale(1.5);
+  z-index: 1;
+}
+
+body {
+  overflow: hidden;
+}
+
+.card img {
+  display: block;
+  max-width: 100%;
+}
+// Netflix Style Hover Effect

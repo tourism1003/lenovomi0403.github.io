@@ -98,6 +98,11 @@ url="<a href="https://hackmd.io/@chupai/BkohH4KzL" target="_blank">https://hackm
 Paragraph 『3D Coverflow Effect』的&ensp;"2.Card"<br><br>
 <div style="font-size:20px;text-align: center;">Very thank you about your provide.</div>
 ----
+* Swiper.js Netflix Style Hover Effect 效果：<br><br>
+<a href="https://css-tricks.com/how-to-re-create-a-nifty-netflix-animation-in-css/" target="_blank">How to Re-Create a Nifty Netflix Animation in CSS</a><br>
+url="<a href="https://css-tricks.com/how-to-re-create-a-nifty-netflix-animation-in-css/" target="_blank">https://css-tricks.com/how-to-re-create-a-nifty-netflix-animation-in-css/</a>"<br><br>
+<div style="font-size:20px;text-align: center;">Very thank you about your provide.</div>
+----
 * Mockup template：<br><br>
 <a href="https://dribbble.com/shots/1711320-12-Column-Vector-Grid-Draft-Mobile-Tablet-Desktop" target="_blank">12 Column Vector Grid Draft (Mobile, Tablet, Desktop)</a><br>
 url="<a href="https://dribbble.com/shots/1711320-12-Column-Vector-Grid-Draft-Mobile-Tablet-Desktop" target="_blank">https://dribbble.com/shots/1711320-12-Column-Vector-Grid-Draft-Mobile-Tablet-Desktop</a>"<br><br>
