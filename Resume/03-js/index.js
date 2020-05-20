@@ -94,8 +94,8 @@ var Menu_2 = [
         name:'Tabs&nbsp;with&nbsp;jQuery&nbsp;Practice',
     },
     {
-        url:'https://lenovomi0403.github.io/Learning%20process/2020-04-08-%E5%A4%A9%E6%B0%A3%E5%8D%A1%E7%89%87API/',
-        name:'天氣卡片&nbsp;API&nbsp;about&nbsp;台中市&nbsp;Practice',
+        url:'https://lenovomi0403.github.io/Learning%20process/2020-04-08-weatherCard_API/',
+        name:'天氣卡片&nbsp;API&nbsp;about&nbsp;台中市',
     }
 ]
 
