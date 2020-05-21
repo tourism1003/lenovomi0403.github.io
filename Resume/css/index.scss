@@ -104,8 +104,33 @@ body{
     padding-top: 10px;
     padding-bottom: 30px;
 
+    .swiper-pagination-bullet{
+        width: 20px;
+        height: 20px;
+        opacity: 0.1;
+    }
+    
+    .swiper-pagination-bullet-active{
+        width: 50px;
+        border-radius: 10px;
+        animation: swiper;
+        animation-duration:4s;
+    }
+    
+    @keyframes swiper{
+        0%{
+            opacity: 0.1;
+        }
+        50%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0.1;
+        }
+    }
+    
     .swiper-slide {
-        width: auto !important;
+        width: auto;
 
         .card {
             border-radius: 50px;

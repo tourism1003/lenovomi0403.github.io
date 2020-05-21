@@ -545,7 +545,7 @@ const Swiper_RWD_Effect = new Swiper('#RWD_Effect', {
         // 選擇按鈕
         clickable: true,
         // 動態按鈕 /更換按鈕大小
-        dynamicBullets: true,
+        dynamicBullets: false,
     },
     // 方向
     navigation: {
@@ -640,7 +640,7 @@ const Swiper_Structure_innerHTML = new Swiper('#Structure_innerHTML', {
         // 選擇按鈕
         clickable: true,
         // 動態按鈕 /更換按鈕大小
-        dynamicBullets: true,
+        dynamicBullets: false,
     },
     // 方向
     navigation: {
