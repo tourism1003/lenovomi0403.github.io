@@ -1,0 +1,262 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #E9EBEE;
+}
+
+@media all and (min-width: 1201px) {
+  #nav1 {
+    height: 70px;
+  }
+}
+
+@media all and (min-width: 993px) and (max-width: 1200px) {
+  #nav1 {
+    height: 70px;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 992px) {
+  #nav1 {
+    height: 70px;
+  }
+}
+
+@media all and (min-width: 577px) and (max-width: 768px) {
+  #nav1 {
+    height: 70px;
+  }
+}
+
+@media all and (max-width: 576px) {
+  #nav1 {
+    height: 56px;
+  }
+}
+
+#nav1 .container .navbar-nav {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#nav1 .container .navbar-nav .nav-item {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media all and (min-width: 1201px) {
+  #nav1 .container .navbar-nav .nav-item {
+    width: 150px;
+  }
+}
+
+@media all and (min-width: 993px) and (max-width: 1200px) {
+  #nav1 .container .navbar-nav .nav-item {
+    width: 150px;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 992px) {
+  #nav1 .container .navbar-nav .nav-item {
+    width: 150px;
+  }
+}
+
+@media all and (min-width: 577px) and (max-width: 768px) {
+  #nav1 .container .navbar-nav .nav-item {
+    width: 150px;
+  }
+}
+
+@media all and (max-width: 576px) {
+  #nav1 .container .navbar-nav .nav-item {
+    width: 135px;
+  }
+}
+
+#nav1 .container .navbar-nav .nav-item:nth-child(2) {
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 0 0 0 10px;
+}
+
+@media all and (min-width: 1201px) {
+  main {
+    margin: 70px 0 0 0;
+  }
+}
+
+@media all and (min-width: 993px) and (max-width: 1200px) {
+  main {
+    margin: 70px 0 0 0;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 992px) {
+  main {
+    margin: 70px 0 0 0;
+  }
+}
+
+@media all and (min-width: 577px) and (max-width: 768px) {
+  main {
+    margin: 70px 0 0 0;
+  }
+}
+
+@media all and (max-width: 576px) {
+  main {
+    margin: 56px 0 0 0;
+  }
+}
+
+@media all and (min-width: 1201px) {
+  main #nav2 {
+    margin: 70px 0 0 0;
+  }
+}
+
+@media all and (min-width: 993px) and (max-width: 1200px) {
+  main #nav2 {
+    margin: 70px 0 0 0;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 992px) {
+  main #nav2 {
+    margin: 70px 0 0 0;
+  }
+}
+
+@media all and (min-width: 577px) and (max-width: 768px) {
+  main #nav2 {
+    margin: 70px 0 0 0;
+  }
+}
+
+@media all and (max-width: 576px) {
+  main #nav2 {
+    margin: 56px 0 0 0;
+  }
+}
+
+@media all and (min-width: 1201px) {
+  main #nav2 .container .navbar-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media all and (min-width: 993px) and (max-width: 1200px) {
+  main #nav2 .container .navbar-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 992px) {
+  main #nav2 .container .navbar-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media all and (min-width: 577px) and (max-width: 768px) {
+  main #nav2 .container .navbar-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media all and (max-width: 576px) {
+  main #nav2 .container .navbar-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+main #nav2 .container .navbar-nav .nav-item {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media all and (min-width: 1201px) {
+  main #nav2 .container .navbar-nav .nav-item {
+    width: 120px;
+  }
+}
+
+@media all and (min-width: 993px) and (max-width: 1200px) {
+  main #nav2 .container .navbar-nav .nav-item {
+    width: 120px;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 992px) {
+  main #nav2 .container .navbar-nav .nav-item {
+    width: 120px;
+  }
+}
+
+@media all and (min-width: 577px) and (max-width: 768px) {
+  main #nav2 .container .navbar-nav .nav-item {
+    width: 120px;
+  }
+}
+
+@media all and (max-width: 576px) {
+  main #nav2 .container .navbar-nav .nav-item {
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 1201px) {
+  main #nav2 .container .navbar-nav .nav-item:nth-child(2) {
+    margin: 0 10px;
+  }
+}
+
+@media all and (min-width: 993px) and (max-width: 1200px) {
+  main #nav2 .container .navbar-nav .nav-item:nth-child(2) {
+    margin: 0 10px;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 992px) {
+  main #nav2 .container .navbar-nav .nav-item:nth-child(2) {
+    margin: 0 10px;
+  }
+}
+
+@media all and (min-width: 577px) and (max-width: 768px) {
+  main #nav2 .container .navbar-nav .nav-item:nth-child(2) {
+    margin: 0 10px;
+  }
+}
+
+@media all and (max-width: 576px) {
+  main #nav2 .container .navbar-nav .nav-item:nth-child(2) {
+    margin: 10px 0;
+  }
+}
+/*# sourceMappingURL=index.css.map */

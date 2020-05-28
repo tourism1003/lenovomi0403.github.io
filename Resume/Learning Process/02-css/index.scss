@@ -1,0 +1,227 @@
+$col-xl-media:1201px;
+$col-xls-media:1200px;
+$col-lg-media:993px;
+$col-lgs-media:992px;
+$col-md-media:769px;
+$col-mds-media:768px;
+$col-sm-media:577px;
+$col-media:576px;
+
+@mixin col-xl() {
+    @media all and ( min-width: $col-xl-media) {
+        @content;
+    }
+}
+
+@mixin col-lg() {
+    @media all and ( min-width: $col-lg-media) and ( max-width: $col-xls-media){
+        @content;
+    }
+}
+
+@mixin col-md() {
+    @media all and ( min-width: $col-md-media) and ( max-width: $col-lgs-media){
+        @content;
+    }
+}
+
+@mixin col-sm() {
+    @media all and ( min-width: $col-sm-media) and ( max-width: $col-mds-media){
+        @content;
+    }
+}
+
+@mixin col() {
+    @media all and ( max-width: $col-media) {
+        @content;
+    }
+}
+
+$display-grid:grid;
+$grid-template-columns-repeat-4:repeat(4,1fr);
+$grid-template-columns-repeat-2:repeat(2,1fr);
+$grid-template-columns-repeat-1:repeat(1,1fr);
+$row-gap-10:10px;
+$column-gap-10:10px;
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #E9EBEE;
+}
+
+#nav1{
+    @include col-xl(){
+        height:70px;
+    }
+
+    @include col-lg(){
+        height:70px;
+    }
+
+    @include col-md(){
+        height:70px;
+    }
+
+    @include col-sm(){
+        height:70px;
+    }
+
+    @include col(){
+        height:56px;
+    }
+
+    .container{
+        .navbar-nav{
+            flex-direction: row;
+
+            .nav-item{
+                text-align: center;
+                background-color: rgba(255,255,255,0.1);
+
+                @include col-xl(){
+                    width: 150px;
+                }
+
+                @include col-lg(){
+                    width: 150px;
+                }
+
+                @include col-md(){
+                    width: 150px;
+                }
+
+                @include col-sm(){
+                    width: 150px;
+                }
+
+                @include col(){
+                    width: 135px;
+                }
+            }
+    
+            .nav-item:nth-child(2){
+                background-color: rgba(255,255,255,0.3);
+                margin: 0 0 0 10px;
+            }
+        }
+    }
+}
+
+main{
+    @include col-xl(){
+        margin:70px 0 0 0;
+    }
+
+    @include col-lg(){
+        margin:70px 0 0 0;
+    }
+
+    @include col-md(){
+        margin:70px 0 0 0;
+    }
+
+    @include col-sm(){
+        margin:70px 0 0 0;
+    }
+
+    @include col(){
+        margin:56px 0 0 0;
+    }
+
+    #nav2{
+        @include col-xl(){
+            margin:70px 0 0 0;
+        }
+    
+        @include col-lg(){
+            margin:70px 0 0 0;
+        }
+    
+        @include col-md(){
+            margin:70px 0 0 0;
+        }
+    
+        @include col-sm(){
+            margin:70px 0 0 0;
+        }
+    
+        @include col(){
+            margin:56px 0 0 0;
+        }
+
+        .container{
+            .navbar-nav{
+                @include col-xl(){
+                    flex-direction: row;
+                }
+
+                @include col-lg(){
+                    flex-direction: row;
+                }
+
+                @include col-md(){
+                    flex-direction: row;
+                }
+
+                @include col-sm(){
+                    flex-direction: row;
+                }
+
+                @include col(){
+                    flex-direction: column;
+                }
+    
+                .nav-item{
+                    text-align: center;
+                    background-color: rgba(255,255,255,0.1);
+    
+                    @include col-xl(){
+                        width: 120px;
+                    }
+    
+                    @include col-lg(){
+                        width: 120px;
+                    }
+    
+                    @include col-md(){
+                        width: 120px;
+                    }
+    
+                    @include col-sm(){
+                        width: 120px;
+                    }
+    
+                    @include col(){
+                        width: 100%;
+                    }
+                }
+        
+                .nav-item:nth-child(2){
+                    @include col-xl(){
+                        margin: 0 10px;
+                    }
+    
+                    @include col-lg(){
+                        margin: 0 10px;
+                    }
+    
+                    @include col-md(){
+                        margin: 0 10px;
+                    }
+    
+                    @include col-sm(){
+                        margin: 0 10px;
+                    }
+    
+                    @include col(){
+                        margin: 10px 0;
+                    }
+                }
+            }
+        }
+    }
+}
