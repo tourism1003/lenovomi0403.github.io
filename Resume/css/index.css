@@ -90,6 +90,37 @@ body {
   margin: 0 10px 0 0;
 }
 
+table {
+  width: 90% !important;
+}
+
+@media all and (max-width: 768px) {
+  table {
+    width: 100% !important;
+  }
+}
+
+table th {
+  padding: 5px !important;
+  width: 120px !important;
+  vertical-align: middle !important;
+}
+
+@media all and (max-width: 768px) {
+  table th {
+    width: 70px !important;
+  }
+}
+
+table td {
+  padding: 5px 0 5px !important;
+  vertical-align: middle !important;
+}
+
+table td a {
+  color: #007bff !important;
+}
+
 @-webkit-keyframes donut-chart-fill {
   to {
     stroke-dasharray: 0 100;

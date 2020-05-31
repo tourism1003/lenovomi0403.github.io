@@ -30,7 +30,7 @@ var innerHTML_Portfolio = [
         title:'Learning Process',
         a_href_link:'https://lenovomi0403.github.io/Resume/Learning%20Process/',
         img_link:'./01-img/01_Portfolio-02_Learning Process.png',
-        span:''
+        span:' CSS Grid Layout '
     },
     {
         nav_h1_sr_only:'Portfolio / README.md',
@@ -67,6 +67,13 @@ var innerHTML_Portfolio = [
         img_link:'./01-img/01_Portfolio-07_Resume with Semantic UI.png',
         span:''
     },
+    {
+        nav_h1_sr_only:'Portfolio / Graphic Design',
+        title:'Graphic Design',
+        a_href_link:'https://issuu.com/lenovomi0403/docs/graphic_design_learning_process',
+        img_link:'./01-img/01_Portfolio-08_graphic design.png',
+        span:'主辦單位：勞動力發展屬中彰投分署<br>班名：跨平台網站製作-介面規劃與RWD前端程式開發班 第 01期<br>課程代碼：141583<br>訓練期間：109 / 2 / 3 — 109 / 5 / 4'
+    }
 ]
 
 var InnerHTML_Portfolio = document.querySelector('.innerHTML_Portfolio')

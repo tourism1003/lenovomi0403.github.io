@@ -109,6 +109,33 @@ body{
     }
 }
 
+table{
+    width: 90% !important;
+
+    @include col(){
+        width: 100% !important;
+    }
+
+    th{
+        padding: 5px !important;
+        width: 120px !important;
+        vertical-align: middle !important;
+    
+        @include col(){
+            width: 70px !important;
+        }
+    }
+    
+    td{
+        padding: 5px 0 5px !important;
+        vertical-align: middle !important;
+
+        a {
+            color: #007bff !important;
+        }
+    }
+}
+
 // SVG Percentage doughnut
 @keyframes donut-chart-fill {
     to {
