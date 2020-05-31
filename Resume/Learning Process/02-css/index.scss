@@ -62,8 +62,18 @@ $grid-template-columns-repeat-8:repeat(8,1fr);
 $grid-template-columns-repeat-4:repeat(4,1fr);
 $grid-template-columns-repeat-2:repeat(2,1fr);
 $grid-template-columns-repeat-1:repeat(1,1fr);
+
+$grid-template-rows-repeat-8:repeat(8,1fr);
+$grid-template-rows-repeat-4:repeat(4,1fr);
+$grid-template-rows-repeat-3:repeat(3,1fr);
+$grid-template-rows-repeat-2:repeat(2,1fr);
+$grid-template-rows-repeat-1:repeat(1,1fr);
+
 $row-gap-10:10px;
 $column-gap-10:10px;
+
+$row-gap-5:5px;
+$column-gap-5:5px;
 
 html {
     scroll-behavior: smooth;
@@ -278,65 +288,186 @@ main{
         }
     }
     
+    #Portfolio{
+
+        #grid{
+            display: $display-grid;
+            row-gap: $row-gap-10;
+            column-gap: $column-gap-10;
+        
+            @include col-xl(){
+                grid-template-columns: $grid-template-columns-repeat-8;
+                grid-template-rows: $grid-template-rows-repeat-1;
+            }
+
+            @include col-lg(){
+                grid-template-columns: $grid-template-columns-repeat-4;
+                grid-template-rows: $grid-template-rows-repeat-2;
+            }
+
+            @include col-md(){
+                grid-template-columns: $grid-template-columns-repeat-2;
+                grid-template-rows: $grid-template-rows-repeat-4;
+            }
+
+            @include col-sm(){
+                grid-template-columns: $grid-template-columns-repeat-4;
+                grid-template-rows: $grid-template-rows-repeat-2;
+            }
+
+            @include col(){
+                grid-template-columns: $grid-template-columns-repeat-2;
+                grid-template-rows: $grid-template-rows-repeat-4;
+            }
+        }
+    }
+
+    #HTML-CSS{
+
+        #grid{
+            display: $display-grid;
+            row-gap: $row-gap-10;
+            column-gap: $column-gap-10;
+        
+            @include col-xl(){
+                grid-template-columns: $grid-template-columns-repeat-8;
+                grid-template-rows: $grid-template-rows-repeat-1;
+            }
+
+            @include col-lg(){
+                grid-template-columns: $grid-template-columns-repeat-4;
+                grid-template-rows: $grid-template-rows-repeat-2;
+            }
+
+            @include col-md(){
+                grid-template-columns: $grid-template-columns-repeat-2;
+                grid-template-rows: $grid-template-rows-repeat-3;
+            }
+
+            @include col-sm(){
+                grid-template-columns: $grid-template-columns-repeat-4;
+                grid-template-rows: $grid-template-rows-repeat-2;
+            }
+
+            @include col(){
+                grid-template-columns: $grid-template-columns-repeat-2;
+                grid-template-rows: $grid-template-rows-repeat-3;
+            }
+        }
+    }
+
+    #JavaScript{
+
+        #grid{
+            display: $display-grid;
+            row-gap: $row-gap-10;
+            column-gap: $column-gap-10;
+        
+            @include col-xl(){
+                grid-template-columns: $grid-template-columns-repeat-8;
+                grid-template-rows: $grid-template-rows-repeat-1;
+            }
+
+            @include col-lg(){
+                grid-template-columns: $grid-template-columns-repeat-4;
+                grid-template-rows: $grid-template-rows-repeat-1;
+            }
+
+            @include col-md(){
+                grid-template-columns: $grid-template-columns-repeat-2;
+                grid-template-rows: $grid-template-rows-repeat-2;
+            }
+
+            @include col-sm(){
+                grid-template-columns: $grid-template-columns-repeat-4;
+                grid-template-rows: $grid-template-rows-repeat-1;
+            }
+
+            @include col(){
+                grid-template-columns: $grid-template-columns-repeat-2;
+                grid-template-rows: $grid-template-rows-repeat-2;
+            }
+        }
+    }
+
     #grid{
-        padding: 0 0 16px 0;
-        @include col-xl(){
-            display: $display-grid;
-            grid-template-columns: $grid-template-columns-repeat-8;
-            row-gap: $row-gap-10;
-            column-gap: $column-gap-10;
-        }
+        
+        .card1{
+            border-radius: 10px;
 
-        @include col-lg(){
-            display: $display-grid;
-            grid-template-columns: $grid-template-columns-repeat-2;
-            row-gap: $row-gap-10;
-            column-gap: $column-gap-10;
-        }
+            .breadcrumb{
+                border-radius: 10px 10px 0 0;
+                margin: 0 0 10px;
+                background-color: #F1F8FF;
+            }
 
-        @include col-md(){
-            display: $display-grid;
-            grid-template-columns: $grid-template-columns-repeat-2;
-            row-gap: $row-gap-10;
-            column-gap: $column-gap-10;
-        }
-
-        @include col-sm(){
-            display: $display-grid;
-            grid-template-columns: $grid-template-columns-repeat-4;
-            row-gap: $row-gap-10;
-            column-gap: $column-gap-10;
-        }
-
-        @include col(){
-            display: $display-grid;
-            grid-template-columns: $grid-template-columns-repeat-2;
-            row-gap: $row-gap-10;
-            column-gap: $column-gap-10;
+            .card2{
+                display: $display-grid;
+                row-gap: $row-gap-5;
+                column-gap: $column-gap-5;
+                grid-template-columns: $grid-template-columns-repeat-1;
+                grid-template-rows: $grid-template-rows-repeat-2;
+                height: 355px;
+                border-radius: 0 0 10px 10px;
+    
+                @include col-md(){
+                    grid-template-columns: $grid-template-columns-repeat-2;
+                    grid-template-rows: $grid-template-rows-repeat-1;
+                    height: 200px;
+                }
+    
+                .img{
+                    position: relative;
+                    height: 150px;
+                    
+                    @include col-md(){
+                        margin: auto 0;
+                    }
+    
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        
+                        @include col-md(){
+                            border-radius: 0;
+                        }
+                    }
+    
+                    .link{
+                        position: absolute;
+                        width: 50%;
+                        background-color: orange;
+                        margin: 0 0 10px 0;
+                        right: 0;
+                        bottom: 0;
+                        text-align: end;
+                        padding: 0 20px 0 0;
+                        clip-path: polygon(30% 0, 100% 0, 100% 100%, 0% 100%);
+                        
+                        @include col-md(){
+                            margin: 0 0 -10px 0;
+                        }
+                    }
+                }
+    
+                .span{
+                    background-color: #E9ECEF;
+                    height: 200px;
+                    padding: 5px;
+                    border-radius: 0 0 10px 10px;
+    
+                    @include col-md(){
+                        border-radius: 0 0 10px 0;
+                    }
+                }
+            }
         }
     }
 }
 
 .GoToTop{
-    @include col-xl(){
-        width: 100px;
-        height: 100px;
-    }
-
-    @include col-lg(){
-        width: 100px;
-        height: 100px;
-    }
-
-    @include col-md(){
-        width: 100px;
-        height: 100px;
-    }
-
-    @include col-sm(){
-        width: 100px;
-        height: 100px;
-    }
+    width: 100px;
+    height: 100px;
 
     @include col(){
         width: 50px;

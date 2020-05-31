@@ -12,6 +12,84 @@ body {
   cursor: pointer;
 }
 
+@media all and (min-width: 1501px) {
+  #nav1 {
+    height: 70px;
+  }
+}
+
+@media all and (min-width: 1201px) and (max-width: 1500px) {
+  #nav1 {
+    height: 70px;
+  }
+}
+
+@media all and (min-width: 993px) and (max-width: 1200px) {
+  #nav1 {
+    height: 70px;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 992px) {
+  #nav1 {
+    height: 70px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  #nav1 {
+    height: 56px;
+  }
+}
+
+#nav1 .container .navbar-nav {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#nav1 .container .navbar-nav .nav-item {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media all and (min-width: 1501px) {
+  #nav1 .container .navbar-nav .nav-item {
+    width: 150px;
+  }
+}
+
+@media all and (min-width: 1201px) and (max-width: 1500px) {
+  #nav1 .container .navbar-nav .nav-item {
+    width: 150px;
+  }
+}
+
+@media all and (min-width: 993px) and (max-width: 1200px) {
+  #nav1 .container .navbar-nav .nav-item {
+    width: 150px;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 992px) {
+  #nav1 .container .navbar-nav .nav-item {
+    width: 150px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  #nav1 .container .navbar-nav .nav-item {
+    width: 135px;
+  }
+}
+
+#nav1 .container .navbar-nav .nav-item:nth-child(1) {
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 0 10px 0 0;
+}
+
 @-webkit-keyframes donut-chart-fill {
   to {
     stroke-dasharray: 0 100;
@@ -254,5 +332,38 @@ body {
 .card img {
   display: block;
   max-width: 100%;
+}
+
+.GoToTop {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+  opacity: 0;
+}
+
+@media all and (max-width: 768px) {
+  .GoToTop {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.GoToTop img {
+  width: 100%;
+  height: 100%;
+}
+
+.GoToTop.active {
+  opacity: 0.5;
+}
+
+.GoToTop:hover {
+  cursor: pointer;
+  opacity: 1;
 }
 /*# sourceMappingURL=index.css.map */

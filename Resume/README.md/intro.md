@@ -70,10 +70,6 @@ url="<a href="https://lenovomi0403.github.io/Resume/" target="_blank">https://le
 ----
 ![image](https://lenovomi0403.github.io/Resume/01-img/04-README.md/01-innerHTML.jpg)
 ----
-* <<span style="color:#569CD6">a</span>&ensp;<span style="color:#9CDCFE">href</span>="#">Portfolio</<span style="color:#569CD6">a</span>><br><br>
-* <<span style="color:#569CD6">a</span>&ensp;<span style="color:#9CDCFE">href</span>="#">聯絡資訊/社交</<span style="color:#569CD6">a</span>><br><br>
-* Navbar 使用的效果為&ensp;{<br>&ensp;&ensp;scrolling-navbar<br>}<br><br>
-----
 * CSS
 ----
 * 寫法採用 SCSS

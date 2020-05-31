@@ -1,112 +1,23 @@
 // aos.js with section
 AOS.init();
 
-var nav_Btn = [
-    {
-        url:'https://lenovomi0403.github.io/taketheseawind/',
-        name:'[&nbsp;掀冊店&nbsp;]&nbsp;獨立書店'
-    },
-    {
-        url:'https://issuu.com/lenovomi0403/docs/graphic_design_learning_process',
-        name:'Graphic Design'
+var gtt = document.querySelector('.GoToTop')
+    window.onscroll = function(){
+
+    var nowScrollTop_safari = document.body.scrollTop
+    var nowScrollTop_google = document.documentElement.scrollTop
+        
+        if(nowScrollTop_safari > 200  || nowScrollTop_google >200){
+            gtt.classList.add('active')
+        }else{
+            gtt.classList.remove('active')
+        }
     }
-]
 
-var nav_BTN = document.querySelector('#nav_BTN')
 
-for (let index = 0; index < nav_Btn.length; index++) {
-    const element_navbtn = nav_Btn[index];
-    
-    nav_BTN.innerHTML +=`
-    <a type="button" href="${element_navbtn.url}" target="_blank" title="可以 ctrl 按著再點超連結" class="btn hvr-reveal indigo darken-2 px-2" style="color: white">${element_navbtn.name}</a>
-    `
-}
-
-var About = [
-    {
-        url:'https://lenovomi0403.github.io/Resume/README.md',
-        name:'README.md'
-    },
-    {
-        url:'https://issuu.com/lenovomi0403/docs/resume_website_rwd_effect_mockup',
-        name:'RWD Effect on issuu'
-    },
-    {
-        url:'https://www.pinterest.com/lenovomi0403/front-end-website/resume-website-rwd-effect-mockup/',
-        name:'RWD Effect on Pinterest'
-    }
-]
-
-var about = document.querySelector('#about')
-
-for (let index = 0; index < About.length; index++) {
-    const element_about = About[index];
-    
-    about.innerHTML +=`
-    <a type="button" href="${element_about.url}" target="_blank" title="可以 ctrl 按著再點超連結" style="color: black" class="hvr-reveal indigo lighten-3">${element_about.name}</a>
-    `
-}
-
-var Menu_1 = [
-    {
-        url:'https://lenovomi0403.github.io/Learning%20process/Resume/',
-        name:'Resume with Semantic UI'
-    },
-    {
-        url:'https://lenovomi0403.github.io/Learning%20process/2020-03-12-W3Cparallax/',
-        name:'Parallax&nbsp;Practice',
-    },
-    {
-        url:'https://lenovomi0403.github.io/Learning%20process/2020-03-13-Parallax+%E9%8C%A8%E9%BB%9E/',
-        name:'Parallax&nbsp;+&nbsp;#&nbsp;Practice',
-    },
-    {
-        url:'https://lenovomi0403.github.io/Learning%20process/2020-03-18-RWD/',
-        name:'RWD&nbsp;切版任務Practice',
-    },
-    {
-        url:'https://lenovomi0403.github.io/Learning%20process/2020-03-25-A-hover-%E6%95%88%E6%9E%9C/',
-        name:'Hover&nbsp;效果&nbsp;Practice',
-    },
-    {
-        url:'https://lenovomi0403.github.io/Learning%20process/2020-03-25-B-Opening/',
-        name:'Opening&nbsp;Practice',
-    }
-]
-
-var menu_1 = document.querySelector('#menu_1')
-
-for (let index = 0; index < Menu_1.length; index++) {
-    const element_Menu_1 = Menu_1[index];
-    
-    menu_1.innerHTML +=`
-    <a type="button" href="${element_Menu_1.url}" target="_blank" title="可以 ctrl 按著再點超連結" style="color: black" class="hvr-reveal indigo lighten-3">${element_Menu_1.name}</a>
-    `
-}
-
-var Menu_2 = [
-    {
-        url:'https://lenovomi0403.github.io/Learning%20process/2020-04-01-forLoop+%E6%A8%A3%E6%9D%BF%E5%AD%97%E4%B8%B2/',
-        name:'forLoop&nbsp;+&nbsp;innerHTML&nbsp;+&nbsp;點擊次數&nbsp;Practice',
-    },
-    {
-        url:'https://lenovomi0403.github.io/Learning%20process/2020-04-07-jQuery_tabs/',
-        name:'Tabs&nbsp;with&nbsp;jQuery&nbsp;Practice',
-    },
-    {
-        url:'https://lenovomi0403.github.io/Learning%20process/2020-04-08-weatherCard_API/',
-        name:'天氣卡片&nbsp;API&nbsp;about&nbsp;台中市',
-    }
-]
-
-var menu_2 = document.querySelector('#menu_2')
-
-for (let index = 0; index < Menu_2.length; index++) {
-    const element_Menu_2 = Menu_2[index];
-    
-    menu_2.innerHTML +=`
-    <a type="button" href="${element_Menu_2.url}" target="_blank" title="可以 ctrl 按著再點超連結" style="color: black" class="hvr-reveal indigo lighten-3">${element_Menu_2.name}</a>
-    `
+    gtt.onclick = function(){
+        document.documentElement.scrollTop = 0
+        document.body.scrollTop = 0
 }
 
 // ↓ innennerHTML with jQuery about progressbar

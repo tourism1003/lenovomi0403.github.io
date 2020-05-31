@@ -51,69 +51,20 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-xl navbar-dark indigo darken-4 fixed-top scrolling-navbar">
+    <h1 class="sr-only">洪瑋駿's Learning Process</h1>
+    <nav id="nav1" class="navbar navbar-expand-lg navbar-dark indigo darken-4 fixed-top scrolling-navbar">
+        <h1 class="sr-only">navbar</h1>
         <div class="container">
-            <a class="navbar-brand" href="#">Portfolio</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
-                <ul class="navbar-nav mr-auto">
-                    <form class="form-inline">
-                        <div class="dropdown">
-                            <button class="btn hvr-reveal indigo darken-2 dropdown-toggle px-2" type="button"
-                                data-toggle="dropdown" style="color: white;">About Resume
-                                <span class="caret"></span>
-                            </button>
-                            <ul class="dropdown-menu" style="background-color: unset;border: unset;">
-                                <!-- ↓ innerHTML with jQuery -->
-                                <div id="about"></div>
-                                <!-- ↑ innerHTML with jQuery -->
-                            </ul>
-                        </div>
-                        <!-- ↓ innerHTML with jQuery -->
-                        <div id="nav_BTN"></div>
-                        <!-- ↑ innerHTML with jQuery -->
-                        <div class="dropdown" title="從 linktr.ee 連到 Github / Learning process / 後，可以看到更多">
-                            <button class="btn hvr-reveal indigo darken-2 dropdown-toggle px-2" type="button"
-                                data-toggle="dropdown" style="color: white;">HTML&nbsp;+&nbsp;CSS&nbsp;
-                                <span class="caret"></span>
-                            </button>
-                            <ul class="dropdown-menu" style="background-color: unset;border: unset;">
-                                <!-- ↓ innerHTML with jQuery -->
-                                <div id="menu_1"></div>
-                                <!-- ↑ innerHTML with jQuery -->
-                            </ul>
-                        </div>
-                        <div class="dropdown" title="從 linktr.ee 連到 Github / Learning process / 後，可以看到更多">
-                            <button class="btn hvr-reveal indigo darken-2 dropdown-toggle px-2" type="button"
-                                data-toggle="dropdown" style="color: white;">JavaScript&nbsp;
-                                <span class="caret"></span></button>
-                            <ul class="dropdown-menu" style="background-color: unset;border: unset;">
-                                <!-- ↓ innerHTML with jQuery -->
-                                <div id="menu_2"></div>
-                                <!-- ↑ innerHTML with jQuery -->
-                            </ul>
-                        </div>
-                    </form>
-                </ul>
-                <ul class="navbar-nav ml-auto nav-flex-icons">
-                    <div class="form-inline">
-                        <li class="nav-item">
-                            <a class="navbar-brand" href="#">聯絡資訊&nbsp;/&nbsp;社交</a>
-                        </li>
-                        <li class="nav-item">
-                            <a type="button" href="https://linktr.ee/lenovomi0403" target="_blank"
-                                title="可以 ctrl 按著再點超連結" class="btn hvr-reveal indigo darken-2 px-2"
-                                style="color: white">
-                                <i><img src="./01-img/01-img/02_linktr.ee icon.png" alt="02_linktr.ee icon.png"
-                                        width="17px" title="linktr.ee icon.png"></i>&ensp;Linktr.ee</a>
-                        </li>
-                    </div>
-                </ul>
-            </div>
+            <ul class="navbar-nav">
+                <li class="nav-item hvr-reveal">
+                    <a class="nav-link" href="https://lenovomi0403.github.io/Resume/" title="Resume"
+                        target="_blank">Resume</a>
+                </li>
+                <li class="nav-item hvr-reveal">
+                    <a class="nav-link" href="https://lenovomi0403.github.io/Resume/Learning%20Process"
+                        title="Learning Process" target="_blank">Learning Process</a>
+                </li>
+            </ul>
         </div>
     </nav>
     <main>
@@ -343,6 +294,9 @@
         </h5>
         <!-- Copyright -->
     </footer>
+    <div class="GoToTop">
+        <img src="./01-img/01-img/scrolltotop.png" alt="">
+    </div>
 
     <!-- JQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
