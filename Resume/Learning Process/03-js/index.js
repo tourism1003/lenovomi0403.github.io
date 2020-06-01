@@ -23,49 +23,49 @@ var innerHTML_Portfolio = [
         title:'Resume with Bootstrap',
         a_href_link:'https://lenovomi0403.github.io/Resume/',
         img_link:'./01-img/01_Portfolio-01_Resume with Bootstrap.png',
-        span:''
+        span:'●  UI frameworks：Bootstrap<br>●  RWD 版型<br>●  innerHTML structure<br>●  SCSS'
     },
     {
         nav_h1_sr_only:'Portfolio / Learning Process',
         title:'Learning Process',
         a_href_link:'https://lenovomi0403.github.io/Resume/Learning%20Process/',
         img_link:'./01-img/01_Portfolio-02_Learning Process.png',
-        span:' CSS Grid Layout '
+        span:'●  UI frameworks：Bootstrap<br>●  RWD 版型<br>●  innerHTML structure<br>●  SCSS<br>●  CSS Grid Layout'
     },
     {
         nav_h1_sr_only:'Portfolio / README.md',
         title:'README.md',
         a_href_link:'https://lenovomi0403.github.io/Resume/README.md/#/',
         img_link:'./01-img/01_Portfolio-03_READMEmd.png',
-        span:''
-    },
-    {
-        nav_h1_sr_only:'Portfolio / RWD Effect on issuu',
-        title:'RWD Effect on issuu',
-        a_href_link:'https://issuu.com/lenovomi0403/docs/resume_website_rwd_effect_mockup',
-        img_link:'./01-img/01_Portfolio-04_RWD Effect on issuu.png',
-        span:''
-    },
-    {
-        nav_h1_sr_only:'Portfolio / RWD Effect on Pinterest',
-        title:'RWD Effect on Pinterest',
-        a_href_link:'https://www.pinterest.com/lenovomi0403/front-end-website/',
-        img_link:'./01-img/01_Portfolio-05_RWD Effect on Pinterest.png',
-        span:''
+        span:'●  JavaScript frameworks：Reveal.js<br>●  JavaScript libraries：Marked.js'
     },
     {
         nav_h1_sr_only:'Portfolio / 苑裡 [ 掀冊店 ] 獨立書店',
         title:'苑裡 [ 掀冊店 ] 獨立書店',
         a_href_link:'https://lenovomi0403.github.io/taketheseawind/',
         img_link:'./01-img/01_Portfolio-06_taketheseawind.png',
-        span:''
+        span:'●  純手刻 HTML 、 CSS 、 JavaScript<br>●  RWD 版型'
     },
     {
         nav_h1_sr_only:'Portfolio / Resume with Semantic UI',
         title:'Resume with Semantic UI',
         a_href_link:'https://lenovomi0403.github.io/Learning%20process/Resume/',
         img_link:'./01-img/01_Portfolio-07_Resume with Semantic UI.png',
-        span:''
+        span:'●  UI frameworks：Semantic-ui'
+    },
+    {
+        nav_h1_sr_only:'Portfolio / RWD Effect on issuu',
+        title:'RWD Effect on issuu',
+        a_href_link:'https://issuu.com/lenovomi0403/docs/resume_website_rwd_effect_mockup',
+        img_link:'./01-img/01_Portfolio-04_RWD Effect on issuu.png',
+        span:'●  Resume with Bootstrap RWD Effect on issuu'
+    },
+    {
+        nav_h1_sr_only:'Portfolio / RWD Effect on Pinterest',
+        title:'RWD Effect on Pinterest',
+        a_href_link:'https://www.pinterest.com/lenovomi0403/front-end-website/',
+        img_link:'./01-img/01_Portfolio-05_RWD Effect on Pinterest.png',
+        span:'●  Resume with Bootstrap RWD Effect on Pinterest'
     },
     {
         nav_h1_sr_only:'Portfolio / Graphic Design',
@@ -127,28 +127,28 @@ var innerHTML_HTML_CSS = [
         title:'RWD 切版任務 Practice',
         a_href_link:'https://lenovomi0403.github.io/Learning%20process/2020-03-18-RWD/',
         img_link:'./01-img/02_HTML&CSS-03_RWD 切版任務 Practice.png',
-        span:'內容：<br>● 熟悉個版面尺寸<br>● 熟悉DIV命名規則'
+        span:'內容：<br>● 熟悉個版面尺寸<br>● 熟悉DIV命名規則<br>●  RWD 版型'
     },
     {
         nav_h1_sr_only:'HTML+CSS / Hover 效果 Practice',
         title:'Hover 效果 Practice',
         a_href_link:'https://lenovomi0403.github.io/Learning%20process/2020-03-25-A-hover-%E6%95%88%E6%9E%9C/',
         img_link:'./01-img/02_HTML&CSS-04_Hover 效果 Practice.png',
-        span:''
+        span:'●  三種不同的文字 Hover 效果'
     },
     {
         nav_h1_sr_only:'HTML+CSS / Opening Practice',
         title:'Opening Practice',
         a_href_link:'https://lenovomi0403.github.io/Learning%20process/2020-03-25-B-Opening/',
         img_link:'./01-img/02_HTML&CSS-05_Opening Practice.png',
-        span:''
+        span:'依據原本的練習，做為修改'
     },
     {
         nav_h1_sr_only:'lenovomi0403.github.io',
         title:'lenovomi0403.github.io',
         a_href_link:'https://github.com/lenovomi0403/lenovomi0403.github.io',
         img_link:'./01-img/02_HTML&CSS-06_github.png',
-        span:''
+        span:'github.com / lenovomi0403 / lenovomi0403.github.io'
     }
 ]
 
@@ -189,28 +189,28 @@ var innerHTML_Javascript = [
         title:'forLoop + innerHTML + 點擊次數 Practice',
         a_href_link:'https://lenovomi0403.github.io/Learning%20process/2020-04-01-forLoop+%E6%A8%A3%E6%9D%BF%E5%AD%97%E4%B8%B2/',
         img_link:'./01-img/03_JavaScript-01_innerHTML.png',
-        span:''
+        span:'●  forLoop<br>●  innerHTML<br>●  object'
     },
     {
         nav_h1_sr_only:'JavaScript / tabs with jQuery Practice',
         title:'tabs with jQuery Practice',
         a_href_link:'https://lenovomi0403.github.io/Learning%20process/2020-04-07-jQuery_tabs/',
         img_link:'./01-img/03_JavaScript-02_Tabs.png',
-        span:''
+        span:'用 jQuery 的方式切換分頁'
     },
     {
         nav_h1_sr_only:'JavaScript / 天氣卡片 API about 台中市',
         title:'天氣卡片 API about 台中市',
         a_href_link:'https://lenovomi0403.github.io/Learning%20process/2020-04-08-weatherCard_API/',
         img_link:'./01-img/03_JavaScript-03_WeatherCard.png',
-        span:'依據原本的練習，做為修改：<br>1. API資料從『一般天氣預報』串接<br>改為『鄉鎮天氣預報-台中市』串接<br>2. 變更卡片樣式。<br>3. 做 RWD 版型<br>4. SCSS寫法'
+        span:'依據原本的練習，做為修改：<br>●  API資料從『一般天氣預報』串接<br>改為『鄉鎮天氣預報-台中市』串接<br>●  變更卡片樣式。<br>●  RWD 版型<br>●  SCSS寫法'
     },
     {
         nav_h1_sr_only:'JavaScript / 天氣卡片 API Practive',
         title:'天氣卡片 API Practive',
         a_href_link:'https://lenovomi0403.github.io/Learning%20process/2020-04-08-weatherCard_API/practice/',
         img_link:'./01-img/03_JavaScript-04_WeatherCard.png',
-        span:'依據原本的練習，做為修改：<br>1. API資料從『一般天氣預報』串接<br>改為『鄉鎮天氣預報-台中市』串接<br>2. 變更卡片樣式。<br>3. 做 RWD 版型'
+        span:'依據原本的練習，做為修改：<br>●  API資料從『一般天氣預報』串接<br>改為『鄉鎮天氣預報-台中市』串接<br>●  變更卡片樣式。<br>●  RWD 版型'
     }
 ]
 

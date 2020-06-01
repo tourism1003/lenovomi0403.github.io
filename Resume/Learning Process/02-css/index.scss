@@ -407,13 +407,13 @@ main{
                 column-gap: $column-gap-5;
                 grid-template-columns: $grid-template-columns-repeat-1;
                 grid-template-rows: $grid-template-rows-repeat-2;
-                height: 355px;
+                height: 405px;
                 border-radius: 0 0 10px 10px;
     
                 @include col-md(){
                     grid-template-columns: $grid-template-columns-repeat-2;
                     grid-template-rows: $grid-template-rows-repeat-1;
-                    height: 200px;
+                    height: 250px;
                 }
     
                 .img{
@@ -452,8 +452,8 @@ main{
     
                 .span{
                     background-color: #E9ECEF;
-                    height: 200px;
-                    padding: 5px;
+                    height: 250px;
+                    padding: 10px;
                     border-radius: 0 0 10px 10px;
     
                     @include col-md(){

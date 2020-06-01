@@ -491,7 +491,7 @@ main #grid .card1 .card2 {
       grid-template-columns: repeat(1, 1fr);
   -ms-grid-rows: (1fr)[2];
       grid-template-rows: repeat(2, 1fr);
-  height: 355px;
+  height: 405px;
   border-radius: 0 0 10px 10px;
 }
 
@@ -501,7 +501,7 @@ main #grid .card1 .card2 {
         grid-template-columns: repeat(2, 1fr);
     -ms-grid-rows: (1fr)[1];
         grid-template-rows: repeat(1, 1fr);
-    height: 200px;
+    height: 250px;
   }
 }
 
@@ -548,8 +548,8 @@ main #grid .card1 .card2 .img .link {
 
 main #grid .card1 .card2 .span {
   background-color: #E9ECEF;
-  height: 200px;
-  padding: 5px;
+  height: 250px;
+  padding: 10px;
   border-radius: 0 0 10px 10px;
 }
 
